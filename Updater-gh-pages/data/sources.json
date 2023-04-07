@@ -1,8 +1,0 @@
-[
-    {
-        "name": "DaisyExamples", 
-        "data_url": "https://raw.githubusercontent.com/ahause23/Release/main/dist/examples.json",
-        "repo_url": "https://raw.githubusercontent.com/ahause23/Release/main/",
-        "bootloader_url": "https://raw.githubusercontent.com/ahause23/Updater/gh-pages/data/dsy_bootloader_v5_4.bin"
-    }
-]
