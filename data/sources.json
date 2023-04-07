@@ -1,8 +1,8 @@
 [
     {
         "name": "DaisyExamples", 
-        "data_url": "https://raw.githubusercontent.com/colortonepedals/Release2/main/dist/examples.json",
-        "repo_url": "https://raw.githubusercontent.com/colortonepedals/Release2/main/",
+        "data_url": "https://raw.githubusercontent.com/colortonepedals/CTRV2/main/dist/examples.json",
+        "repo_url": "https://raw.githubusercontent.com/colortonepedals/CTRV2/main/",
         "bootloader_url": "https://raw.githubusercontent.com/colortonepedals/Updater/gh-pages/data/dsy_bootloader_v5_4.bin"
     }
 ]
