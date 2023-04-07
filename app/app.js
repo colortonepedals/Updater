@@ -188,10 +188,10 @@ var app = new Vue({
                         <h2>Usage:</h2>
                         <ol>
                             <li>
-			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via a Micro USB (DShape) to your Computer - 0214</p>
+			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via a Micro USB (DShape) to your Computer - 0218</p>
 			    	<ul>
 					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
-					<li><p>The orientation of the USB 'D' should have the flat side facing up when inserting into the USB socket</p></li>
+					<li><p>The orientation of the USB 'D' connector should have the flat side facing up when inserting into the USB socket</p></li>
 				</ul>
 			    </li>
                             <li>
@@ -274,10 +274,6 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
-		    <b-row class="p-2">
-                        <legend> </legend>
-                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
-                    </b-row>
                 </b-container>
             </b-col>
         </b-row>
@@ -304,6 +300,10 @@ var app = new Vue({
             <br>
             </div>
             <div><div id = "readme"></div> </div>
+	    <b-row class="p-2">
+                        <legend> </legend>
+                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
+            </b-row>
         </b-container>
         </b-col>
         </b-row>
