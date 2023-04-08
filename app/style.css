@@ -5,7 +5,7 @@
 @font-face {
   font-family: "Typo_Round_Regular";
   src: url("../font/Typo_Round_Regular.woff") format("woff"),
-  src: url("../font/Typo_Round_Regular.off") format("off"),
+  src: url("../font/Typo_Round_Regular.otf") format("otf"),
 }
 table {
   border-collapse: collapse;
