@@ -68,4 +68,9 @@ text-align: left;
     margin: 5px;
 
 }
+h1 {
+  font-family: 'Typo_Round_Regular';
+  font-weight:normal;
+  font-style:normal;
+}
 
