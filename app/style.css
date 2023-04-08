@@ -4,9 +4,8 @@
 
 @font-face {
   font-family: "Typo_Round_Regular";
-  src: url("css/fonts/Typo_Round_Regular.eot");
-  src: url("css/fonts/Typo_Round_Regular.woff") format("woff"),
-       url("css/fonts/Typo_Round_Regular.otf") format("opentype"),
+  src: url("font/Typo_Round_Regular.eot");
+  src: url("font/Typo_Round_Regular.woff") format("woff"),
 }
 table {
   border-collapse: collapse;
