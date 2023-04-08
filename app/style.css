@@ -6,6 +6,8 @@
   font-family: "Typo_Round_Regular";
   src: url("../font/Typo_Round_Regular.woff") format("woff"),
   src: url("../font/Typo_Round_Regular.otf") format("otf"),
+  font-weight: normal;
+  font-style: normal;
 }
 table {
   border-collapse: collapse;
