@@ -4,12 +4,8 @@
 
 @font-face {
   font-family: 'Typo_Round_Regular';
-  src: url('../font/Typo_Round_Regular.woff') format('woff'),
   src: url('../font/Typo_Round_Regular.otf') format('otf'),
-  font-weight: normal;
-  font-style: normal;
 }
-h1, h2, h3, h4, h5, h6 {font-family: 'Typo_Round_Regular';}
 
 table {
   border-collapse: collapse;
@@ -47,11 +43,11 @@ text-align: left;
     align-items: center;
     justify-content: center;
     color: #fff;
-    background-color: #401d1d;
+    background-color: #626262;
     padding: 10px;
     border: solid;
     border-radius: 15px;
-    border-color: red;
+    border-color: rgb(0, 200, 255);
     margin: 5px;
     font-family: 'Typo_Round_Regular';
 }
