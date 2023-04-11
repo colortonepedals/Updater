@@ -51,7 +51,7 @@ text-align: left;
     border-radius: 15px;
     border-color: rgb(0, 200, 255);
     margin: 5px;
-    font-family: 'Typo_Round_Regular';
+    font-family: Typo_Round_Regular;
 }
 
 .nested_list {
@@ -59,7 +59,7 @@ text-align: left;
     align-items: left;
     margin: 20px;
     text-align: left;
-    font-family: 'Typo_Round_Regular';
+    font-family: Typo_Round_Regular;
 }
 
 .daisystyle {
@@ -78,22 +78,22 @@ h1 {
   font-style:normal;
 }
 h1 {
-  font-family: 'Typo_Round_Regular';
+  font-family: Typo_Round_Regular;
   font-weight:normal;
   font-style:normal;
 }
 h2 {
-  font-family: 'Typo_Round_Regular';
+  font-family: Typo_Round_Regular;
   font-weight:normal;
   font-style:normal;
 }
 h3 {
-  font-family: 'Typo_Round_Regular';
+  font-family: Typo_Round_Regular;
   font-weight:normal;
   font-style:normal;
 }
 p {
-  font-family: 'Typo_Round_Regular';
+  font-family: Typo_Round_Regular;
   font-weight:normal;
   font-style:normal;
 }
