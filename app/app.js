@@ -173,7 +173,7 @@ var app = new Vue({
             <legend>COLORTONE FIRMWARE UPDATER</legend>
             
             <p> Connect to the Board - If this is your first time here, follow the steps in Help section below</p>
-            <li><p> <img src="img/colortone_Color_Logo_2023_sm_240.png" alt="Pineapple" style="width:170px;height:170px;"> </p></li>
+            <p> <img src="img/colortone_Color_Logo_2023_sm_240.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
             <p><b-button variant="ct" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
                 Your device has multiple DFU interfaces. Select one from the list below:
