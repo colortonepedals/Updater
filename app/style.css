@@ -4,7 +4,9 @@
 
 @font-face {
   font-family: 'Typo_Round_Regular';
-  src: url('../font/Typo_Round_Regular.otf') format('otf'),
+  src: url('../font/Typo_Round_Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 table {
