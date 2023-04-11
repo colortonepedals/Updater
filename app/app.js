@@ -232,7 +232,7 @@ var app = new Vue({
                 </b-collapse>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
-                        <h1>Requirements</h1>
+                        <h3>Requirements</h3>
                         <p>In order to use this, you will need:</p>
                         <ul>
                             <li>
@@ -249,7 +249,7 @@ var app = new Vue({
                 <b-container>
                     <hr>
                     <b-row class="p-2">
-                        <h1> Select Pedal and Latest Firmware Version from menus below.</h1>
+                        <h3> Select Pedal and Latest Firmware Version from menus below.</h3>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -265,7 +265,7 @@ var app = new Vue({
                     </b-row>
                     <hr>
                     <b-row class="p-2">
-                        <h1> If we have sent you a custom build you can load the firmware here from your computer </h1>
+                        <h3> If we have sent you a custom build you can load the firmware here from your computer </h3>
                             <b-form-file
                                 id="firmwareFile"
                                 v-model="firmwareFile"
