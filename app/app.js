@@ -194,7 +194,7 @@ var app = new Vue({
 			    	<ul>
 					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
 					<li><p>The orientation of the USB 'D' connector should have the flat side facing up when inserting into the USB socket</p></li>
-     					<li><p> <img src="img/CTFW-sm.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+     					<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 				</ul>
 			    </li>
                             <li>
