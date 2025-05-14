@@ -172,7 +172,7 @@ var app = new Vue({
         <div>
             <legend>COLORTONE FIRMWARE UPDATER</legend>
             
-            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below</p>
+            <p> Connect to the Board - If this is your first time here, follow the steps in Display Help section below</p>
             <p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
             <p><b-button variant="ct" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
@@ -194,6 +194,7 @@ var app = new Vue({
 			    	<ul>
 					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
 					<li><p>The orientation of the USB 'D' connector should have the flat side facing up when inserting into the USB socket</p></li>
+     					<li><p> <img src="img/CTFW-sm.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 				</ul>
 			    </li>
                             <li>
