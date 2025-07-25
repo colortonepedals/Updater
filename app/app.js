@@ -241,7 +241,7 @@ var app = new Vue({
 			    </li>
 			    
                             <li>
-			    	<p>Click the Program button below, and wait for the progress bar to finish.</p>
+			    	<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
 				<ul>
 			    		<li><p>If the Firmware has been successfully updated the 2nd LED will start flashing again</p></li>
 			    	</ul>
