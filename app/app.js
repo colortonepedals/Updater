@@ -231,7 +231,7 @@ var app = new Vue({
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
 			    	<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Bootloader" from the list</p>
-				<li><p>TODO Show Image of example dialog window</p></li>
+				<p>TODO Show Image of example dialog window</p>
 			    	<ul>
 			    		<li><p>If "DFU in FS Mode" or "Bootloader" does not appear in the list try another Cable or USB port</p></li>
 			    	</ul>
