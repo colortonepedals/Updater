@@ -200,7 +200,15 @@ var app = new Vue({
        			    <li>
 			    	<p>Check against the firmware version name and determine if it uses Normal Mode or Bootloader Mode.</p>
 				<ul>
-					<li><p>If the buttons were pressed in the correct order the flashing LED will turn off</p></li>
+					<li><p>FOR NORMAL MODE</p></li>
+     					<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1), and then pressing, and releasing the RESET button(2)</p></li>
+     					<li><p>If the buttons were pressed in the correct order the flashing LED will turn off</p></li>
+					<li><p> <img src="img/CTFW-sm.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+				</ul>
+    				<ul>
+					<li><p>FOR BOOTLOADER MODE</p></li>
+     					<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by pressing the BOOT button(1) once, and then pressing the RESET button(2) once</p></li>
+					<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
 					<li><p> <img src="img/CTFW-sm.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 				</ul>
 			    </li>
