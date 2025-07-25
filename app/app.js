@@ -198,6 +198,13 @@ var app = new Vue({
 				</ul>
 			    </li>
        			    <li>
+                                <p>Select the pedal and firmware update required from the drop down menus below on this page:</p>
+                                <ul>
+                                    <li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
+                                    <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to load.</p></li>
+                                </ul>
+                            </li>
+       			    <li>
 			    	<p>Check against the firmware version name and determine if it uses NORMAL MODE or BOOTLOADER MODE.</p>
 				<ul>
 					<li><p>FOR NORMAL MODE</p></li>
@@ -221,18 +228,12 @@ var app = new Vue({
 			    </li>
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
-			    	<p>In the PopUp Dialog window select, "DFU in FS Mode" from the list</p>
+			    	<p>In the PopUp Dialog window select, "DFU in FS Mode" or "Bootloader" from the list</p>
 			    	<ul>
-			    		<li><p>If "DFU in FS Mode" does not appear try another Cable or USB port</p></li>
+			    		<li><p>If "DFU in FS Mode" or "Bootloader" does not appear in the list try another Cable or USB port</p></li>
 			    	</ul>
 			    </li>
-			    <li>
-                                <p>Now do either of the following:</p>
-                                <ul>
-                                    <li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
-                                    <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to load.</p></li>
-                                </ul>
-                            </li>
+			    
                             <li>
 			    	<p>Click the Program button, and wait for the progress bar to finish.</p>
 				<ul>
