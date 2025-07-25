@@ -205,9 +205,9 @@ var app = new Vue({
                                 </ul>
                             </li>
        			    <li>
-			    	<p>Check against the firmware version name and determine if it uses NORMAL MODE or BOOTLOADER MODE.</p>
+			    	<p>Check against the firmware version name and determine if the text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
 				<ul>
-					<li><p>FOR NORMAL MODE</p>
+					<li><p>FOR NORMAL FLASH MODE</p>
      						<ul>
      							<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is Pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
      							<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
@@ -216,7 +216,7 @@ var app = new Vue({
       					</li>
     				</ul>
     				<ul>
-					<li><p>FOR BOOTLOADER MODE</p>
+					<li><p>FOR BOOTLOADER FLASH MODE</p>
      						<ul>
      							<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by pressing and releasing the BOOT button(1) once, and then pressing and releasing the RESET button(2) once</p></li>
 							<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
