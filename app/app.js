@@ -218,7 +218,7 @@ var app = new Vue({
     				<ul>
 					<li><p>FOR BOOTLOADER FLASH MODE</p>
      						<ul>
-     							<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by pressing and releasing the BOOT button(1) once, and then pressing and releasing the RESET button(2) once</p></li>
+     							<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
 							<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
 							<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
        						</ul>
