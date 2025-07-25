@@ -212,6 +212,7 @@ var app = new Vue({
      							<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
      							<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
 							<li><p> <img src="img/CTFW-sm.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+       							<li><p>TODO Show Image of LED Position/p></li>
 						</ul>
       					</li>
     				</ul>
@@ -229,6 +230,7 @@ var app = new Vue({
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
 			    	<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Bootloader" from the list</p>
+				<p>TODO Show Image of example dialog window</p>
 			    	<ul>
 			    		<li><p>If "DFU in FS Mode" or "Bootloader" does not appear in the list try another Cable or USB port</p></li>
 			    	</ul>
