@@ -205,7 +205,7 @@ var app = new Vue({
                                 </ul>
                             </li>
        			    <li>
-			    	<p>Check against the firmware version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
+			    	<p>Check against the Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
 				<ul>
 					<li><p>FOR NORMAL FLASH MODE</p>
      						<ul>
@@ -228,7 +228,7 @@ var app = new Vue({
                             
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
-			    	<p>In the PopUp Dialog window select, "DFU in FS Mode" or "Bootloader" from the list</p>
+			    	<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Bootloader" from the list</p>
 			    	<ul>
 			    		<li><p>If "DFU in FS Mode" or "Bootloader" does not appear in the list try another Cable or USB port</p></li>
 			    	</ul>
@@ -268,7 +268,7 @@ var app = new Vue({
                 <b-container>
                     <hr>
                     <b-row class="p-2">
-                        <h4> Select Pedal and Latest Firmware Version from menus below.</h4>
+                        <h4> Select your COLORTONE Pedal and Latest Firmware Version from menus below.</h4>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -284,7 +284,7 @@ var app = new Vue({
                     </b-row>
                     <hr>
                     <b-row class="p-2">
-                        <h4> If we have sent you a custom build you can load the firmware here from your computer </h4>
+                        <h4> If we have sent you a custom build you can load the firmware .bin file here from your computer </h4>
                             <b-form-file
                                 id="firmwareFile"
                                 v-model="firmwareFile"
