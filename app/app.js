@@ -228,7 +228,7 @@ var app = new Vue({
                             
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
-			    	<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Daisy Bootloader" from the list</p>
+			    	<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Daisy Bootloader" from the list and press the CONNECT button.</p>
 			    	<ul>
 					<div class="column">
 						<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
