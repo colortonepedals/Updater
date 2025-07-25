@@ -205,7 +205,7 @@ var app = new Vue({
                                 </ul>
                             </li>
        			    <li>
-			    	<p>Check against the Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
+			    	<p>Check against the selected Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
 				<ul>
 					<li><p>FOR NORMAL FLASH MODE</p>
      						<ul>
