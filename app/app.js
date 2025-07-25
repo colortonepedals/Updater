@@ -200,6 +200,7 @@ var app = new Vue({
        			    <li>
                                 <p>Select the PEDAL and FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                                 <ul>
+				    <li><p> <img src="img/select.jpg" alt="Pineapple" style="width:1000px;height:250px;"> </p></li>
                                     <li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
                                     <li><p>If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                                 </ul>
