@@ -190,9 +190,9 @@ var app = new Vue({
                         <h2>Usage:</h2>
                         <ol>
                             <li>
-			    	<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the PCB Board via a Micro USB (DShape) to your Computer</p>
+			    	<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
 			    	<ul>
-					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
+					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
 					<li><p>The orientation of the Micro USB 'D' connector should have the flat side facing up when inserting into the USB socket</p></li>
      					<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 				</ul>
@@ -205,7 +205,7 @@ var app = new Vue({
                                 </ul>
                             </li>
        			    <li>
-			    	<p>Check against the firmware version name and determine if the text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
+			    	<p>Check against the firmware version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
 				<ul>
 					<li><p>FOR NORMAL FLASH MODE</p>
      						<ul>
