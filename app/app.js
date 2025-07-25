@@ -230,7 +230,12 @@ var app = new Vue({
                             <li>
 			    	<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Daisy Bootloader" from the list</p>
 			    	<ul>
-					<li><p> <img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;"> </p></li>
+					<div class="column">
+						<li><p> <img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> </p></li>
+      					</div>
+	   				<div class="column">
+						<li><p> <img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;"> </p></li>
+      					</div>
 			    		<li><p>If "DFU in FS Mode" or "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
 			    	</ul>
 			    </li>
