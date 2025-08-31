@@ -193,8 +193,9 @@ var app = new Vue({
 			    	<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
 			    	<ul>
 					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
+	 				<li><p>This webpage needs to be run using the Chrome browser. If you are on Windows see the notes below under item 8</p></li>
 					<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     					<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+     				<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 				</ul>
 			    </li>
        			    <li>
