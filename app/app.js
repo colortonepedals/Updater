@@ -254,7 +254,7 @@ var app = new Vue({
                         <p>
                             For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.
 
-                            To do this, you can download the free software, Zadig. Run Zadig and select "list all devices" in the options menu. In the Dropdown select "DFU in FS Mode". In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver". 
+                            To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . Run Zadig. After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. In the Dropdown select "DFU in FS Mode". In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver". 
                         </p>
                     </div>
                 </b-collapse>
