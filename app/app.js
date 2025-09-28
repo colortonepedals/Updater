@@ -257,14 +257,14 @@ var app = new Vue({
 						<p>	Run Zadig. After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. </p>
 						<ul>
 							<div class="column">
-							<img src="img/ZadigList.png" alt="Pineapple" style="width:170px;height:170px;"> 
+							<img src="img/ZadigList.png" alt="Pineapple" style="width:600px;height:170px;"> 
       						</div>
 						</ul>
 						<p>	In the Dropdown select "DFU in FS Mode". </p>
 						<p> In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver".  </p>
                     	<ul>
 							<div class="column">
-							<img src="img/ZadigDFU.png" alt="Pineapple" style="width:170px;height:170px;"> 
+							<img src="img/ZadigDFU.png" alt="Pineapple" style="width:600px;height:170px;"> 
       						</div>
 						</ul>
 					</div>
