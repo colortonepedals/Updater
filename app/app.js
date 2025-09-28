@@ -262,7 +262,7 @@ var app = new Vue({
 							<img src="img/ZadigList.png" alt="Pineapple" style="width:400px;height:170px;"> 
       						</div>
 						</ul>
-						<li><p>	In the Dropdown select "DFU in FS Mode". </p></li>
+						<li><p>	In the Dropdown select "DFU in FS Mode" or "Daisy Bootloader". </p></li>
 						<li><p> In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver".  </p></li>
                     	<ul>
 							<div class="column">
