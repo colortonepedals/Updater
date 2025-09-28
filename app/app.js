@@ -211,12 +211,12 @@ var app = new Vue({
 			    	<p>Check against the selected Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
 				<ul>
 					<li><p>FOR NORMAL FLASH MODE</p>
-     						<ul>
-     							<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
-     							<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
+     					<ul>
+     						<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
+     						<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
 							<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 						</ul>
-      					</li>
+      				</li>
     			</ul>
     			<ul>
 					<li><p>FOR BOOTLOADER FLASH MODE</p>
@@ -255,20 +255,22 @@ var app = new Vue({
             </ol>
                         <p> For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
 						<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
-						<li><p>	Instal Zadig and Open it. </p></li>
-						<li><p>After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. </p></li>
 						<ul>
-							<div class="column">
-							<img src="img/ZadigList.png" alt="Pineapple" style="width:400px;height:170px;"> 
-      						</div>
-						</ul>
-						<li><p>	In the Dropdown select "DFU in FS Mode" or "Daisy Bootloader". </p></li>
-						<li><p> In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver".  </p></li>
-                    	<ul>
-							<div class="column">
-							<img src="img/ZadigDFU.png" alt="Pineapple" style="width:400px;height:170px;"> 
-      						</div>
-						</ul>
+							<li><p>	Instal Zadig and Open it. </p></li>
+							<li><p>After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. </p></li>
+							<ul>
+								<div class="column">
+								<img src="img/ZadigList.png" alt="Pineapple" style="width:400px;height:170px;"> 
+      							</div>
+							</ul>
+							<li><p>	In the Dropdown select "DFU in FS Mode" or "Daisy Bootloader". </p></li>
+							<li><p> In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver".  </p></li>
+                    		<ul>
+								<div class="column">
+								<img src="img/ZadigDFU.png" alt="Pineapple" style="width:400px;height:170px;"> 
+      							</div>
+							</ul>
+						</ul>	
 					</div>
                 </b-collapse>
                 <b-collapse id="collapseHelp">
