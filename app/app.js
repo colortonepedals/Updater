@@ -253,8 +253,8 @@ var app = new Vue({
 			    <li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
 				<p> </p>
             </ol>
-			<p> </p>
-			<p> </p>
+			<p> --- </p>
+			<p> --- </p>
                         <p> For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
 						<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
 						<ul>
