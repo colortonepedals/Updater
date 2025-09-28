@@ -252,12 +252,22 @@ var app = new Vue({
                             <li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
 			    <li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
                         </ol>
-                        <p>
-                            For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.
-
-                            To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . Run Zadig. After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. In the Dropdown select "DFU in FS Mode". In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver". 
-                        </p>
-                    </div>
+                        <p> For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
+						<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
+						<p>	Run Zadig. After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. </p>
+						<ul>
+							<div class="column">
+							<img src="img/ZadigList.png" alt="Pineapple" style="width:170px;height:170px;"> 
+      						</div>
+						</ul>
+						<p>	In the Dropdown select "DFU in FS Mode". </p>
+						<p> In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver".  </p>
+                    	<ul>
+							<div class="column">
+							<img src="img/ZadigDFU.png" alt="Pineapple" style="width:170px;height:170px;"> 
+      						</div>
+						</ul>
+					</div>
                 </b-collapse>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
