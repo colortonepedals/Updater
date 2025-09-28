@@ -251,7 +251,7 @@ var app = new Vue({
 			    </li>
                 <li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
 			    <li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
-				<li><p> </p></li>
+				<p> </p>
             </ol>
                         <p> For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
 						<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
