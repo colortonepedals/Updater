@@ -185,7 +185,7 @@ var app = new Vue({
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 			<div>
                 <b-button variant="es1" v-b-toggle.collapseHelp>Display Help</b-button>
-                <b-collapse id="collapseHelp">
+                <b-collapse id="collapseHelp1">
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
 					</div>
