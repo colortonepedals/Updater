@@ -266,39 +266,30 @@ var app = new Vue({
      								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 								</ul>
 			    			</li>
+							<ul>
+								<li><p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode</p>
+     								<ul>
+     									<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
+										<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
+										<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+       								</ul>
+	     						</li>
+							</ul>
        						<li>
-                     				<p>Select the PEDAL and FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+                     				<p>Select the VibroVerb PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                         			<ul>
 				    					<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                    	<li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
-                                    	<li><p>If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
+                                    	<li><p>NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                         			</ul>
                 			</li>
-       						<li>
-			    					<p>Check against the selected Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
-									<ul>
-										<li><p>FOR NORMAL FLASH MODE</p>
-     								<ul>
-     									<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
-     									<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
-										<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-									</ul>
-      						</li>
+       					
     					</ul>
-    					<ul>
-							<li><p>FOR VibroVerb BOOTLOADER FLASH MODE</p>
-     							<ul>
-     								<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
-									<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
-									<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-       							</ul>
-	     					</li>
-						</ul>
+    					
 			    	</li>
                             
                 	<li><p>Click the Connect button at the top of this page.</p></li>
                 	<li>
-			    		<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Daisy Bootloader" from the list and press the CONNECT button.</p>
+			    		<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
 			    	<ul>
 					<div class="column">
 						<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
@@ -313,7 +304,7 @@ var app = new Vue({
                 			<li>
 			    			<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
 							<ul>
-			    				<li><p>If the Firmware has been successfully updated the 2nd LED will start flashing again</p></li>
+			    				<li><p>If the Firmware has been successfully updated the pedals bypass Relays will click and the 2nd LED will start flashing again</p></li>
 			    			</ul>
 			  	  			</li>
               				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
