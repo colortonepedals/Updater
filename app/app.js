@@ -207,11 +207,11 @@ var app = new Vue({
                         	</ul>
                 		</li>
        					<li>
-			    			<p>Check against the selected Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
+			    			<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
 							<ul>
 							<li><p>ZeroSum NORMAL FLASH MODE</p>
      							<ul>
-     								<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
+     								<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
      								<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
 									<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 								</ul>
