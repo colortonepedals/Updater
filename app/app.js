@@ -184,7 +184,7 @@ var app = new Vue({
             <div id="usbInfo" hidden="true" style="white-space: pre"></div>
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp1>Display Help ZeroSum</b-button>
+                <b-button variant="es" v-b-toggle.collapseHelp1>Display Help ZeroSum</b-button>
                 <b-collapse id="collapseHelp1">
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
@@ -252,50 +252,50 @@ var app = new Vue({
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
                         <h2>Usage VibroVerb:</h2>
-            <ol>
-                 <li>
-			    	<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
-			    <ul>
-					<li><p>A data capable USB cable is required. Some charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 				<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 				<li><p>This webpage needs to be run using the Chrome browser. If you are on Windows see the notes below under item 8</p></li>
-					<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     				<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-				</ul>
-			    </li>
-       			<li>
-                     <p>Select the PEDAL and FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
-                        <ul>
-				    		<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                    <li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
-                                    <li><p>If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
-                        </ul>
-                </li>
-       			<li>
-			    	<p>Check against the selected Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
-				<ul>
-					<li><p>FOR NORMAL FLASH MODE</p>
-     					<ul>
-     						<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
-     						<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
-							<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+            				<ol>
+                 			<li>
+			    					<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
+			    				<ul>
+									<li><p>A data capable USB cable is required. Some charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
+	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
+	 								<li><p>This webpage needs to be run using the Chrome browser. If you are on Windows see the notes below under item 8</p></li>
+									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
+     								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+								</ul>
+			    			</li>
+       						<li>
+                     				<p>Select the PEDAL and FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+                        			<ul>
+				    					<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+                                    	<li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
+                                    	<li><p>If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
+                        			</ul>
+                			</li>
+       						<li>
+			    					<p>Check against the selected Firmware Version name and determine if the Firmware Version text indicates NORMAL FLASH or BOOTLOADER FLASH.</p>
+									<ul>
+										<li><p>FOR NORMAL FLASH MODE</p>
+     								<ul>
+     									<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
+     									<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
+										<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+									</ul>
+      						</li>
+    					</ul>
+    					<ul>
+							<li><p>FOR VibroVerb BOOTLOADER FLASH MODE</p>
+     							<ul>
+     								<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
+									<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
+									<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+       							</ul>
+	     					</li>
 						</ul>
-      				</li>
-    			</ul>
-    			<ul>
-					<li><p>FOR BOOTLOADER FLASH MODE</p>
-     						<ul>
-     							<li><p>On the daughter-board PCB enable the COLORTONE Firmware Update by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
-								<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
-								<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-       						</ul>
-	     			</li>
-				</ul>
-			    </li>
+			    	</li>
                             
-                <li><p>Click the Connect button at the top of this page.</p></li>
-                <li>
-			    	<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Daisy Bootloader" from the list and press the CONNECT button.</p>
+                	<li><p>Click the Connect button at the top of this page.</p></li>
+                	<li>
+			    		<p>In the PopUp Dialog window select either "DFU in FS Mode" or "Daisy Bootloader" from the list and press the CONNECT button.</p>
 			    	<ul>
 					<div class="column">
 						<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
@@ -303,7 +303,7 @@ var app = new Vue({
 	   						<div class="column">
 								<img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;">
       							</div>
-			    				<li><p>If "DFU in FS Mode" or "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
+			    				<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
 			    			</ul>
 			    			</li>
 			    
