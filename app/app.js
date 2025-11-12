@@ -184,7 +184,7 @@ var app = new Vue({
             <div id="usbInfo" hidden="true" style="white-space: pre"></div>
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp1>Display Help</b-button>
+                <b-button variant="es1" v-b-toggle.collapseHelp1>Display Help ZeroSum</b-button>
                 <b-collapse id="collapseHelp1">
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
@@ -192,7 +192,7 @@ var app = new Vue({
 				</b-collapse>
 			</div>
 			<div>
-                <b-button variant="es" v-b-toggle.collapseHelp>Display Help ZEROSUM</b-button>
+                <b-button variant="es" v-b-toggle.collapseHelp>Display Help</b-button>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
                         <h2>Usage:</h2>
