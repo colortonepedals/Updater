@@ -300,6 +300,25 @@ var app = new Vue({
                 <b-collapse id="collapseHelpW">
                     <div class="nested_list">
                         <h2>Usage Windows:</h2>
+						<p> --- </p>
+                        <p> For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
+						<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
+						<ul>
+							<li><p>	Instal Zadig and Open it. </p></li>
+							<li><p>After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. </p></li>
+							<ul>
+								<div class="column">
+								<img src="img/ZadigList.png" alt="Pineapple" style="width:400px;height:170px;"> 
+      							</div>
+							</ul>
+							<li><p>	In the Dropdown select "DFU in FS Mode" or "Daisy Bootloader". </p></li>
+							<li><p> In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver".  </p></li>
+                    		<ul>
+								<div class="column">
+								<img src="img/ZadigDFU.png" alt="Pineapple" style="width:400px;height:170px;"> 
+      							</div>
+							</ul>
+						</ul>	
 					</div>
 				</b-collapse>
 			</div>
