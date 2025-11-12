@@ -199,14 +199,7 @@ var app = new Vue({
      						<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 						</ul>
 			    		</li>
-       					<li>
-                    		<p>Select the ZeroSum PEDAL and FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
-                        	<ul>
-				    			<li><p> <img src="img/selectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                <li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
-                        	</ul>
-                		</li>
-       					<li>
+						<li>
 			    			<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
 							<ul>
 							<li><p>ZeroSum NORMAL FLASH MODE</p>
@@ -218,7 +211,15 @@ var app = new Vue({
       						</li>
     						</ul>
 			    		</li>
-                            
+						
+       					<li>
+                    		<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+                        	<ul>
+				    			<li><p> <img src="img/selectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+                                <li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
+                        	</ul>
+                		</li>
+
                 		<li><p>Click the Connect button at the top of this page.</p></li>
                 		<li>
 			    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
@@ -234,9 +235,10 @@ var app = new Vue({
                 		<li>
 			    			<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
 							<ul>
-			    				<li><p>If the Firmware has been successfully updated the 2nd LED will start flashing again</p></li>
+			    				<li><p>If the Firmware has been successfully updated you will hear the relays click and the 2nd LED will start flashing again</p></li>
 			    			</ul>
 			  	  		</li>
+						
               			<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
 			   			<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
 						<p> </p>
