@@ -202,8 +202,8 @@ var app = new Vue({
        					<li>
                     		<p>Select the ZeroSum PEDAL and FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                         	<ul>
-				    			<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                <li><p>NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
+				    			<li><p> <img src="img/selectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+                                <li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                         	</ul>
                 		</li>
        					<li>
@@ -221,7 +221,7 @@ var app = new Vue({
                             
                 		<li><p>Click the Connect button at the top of this page.</p></li>
                 		<li>
-			    			<p>In the PopUp Dialog window select either "DFU in FS Mode" from the list and press the CONNECT button.</p>
+			    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
 			    			<ul>
 								<div class="column">
 								<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
