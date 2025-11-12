@@ -192,10 +192,10 @@ var app = new Vue({
 				</b-collapse>
 			</div>
 			<div>
-                <b-button variant="es" v-b-toggle.collapseHelp>Display Help</b-button>
+                <b-button variant="es" v-b-toggle.collapseHelp>Display Help VibroVerb</b-button>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
-                        <h2>Usage:</h2>
+                        <h2>Usage VibroVerb:</h2>
             <ol>
                  <li>
 			    	<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
@@ -295,6 +295,14 @@ var app = new Vue({
                     </div>
                 </b-collapse>
             </div>
+			<div>
+                <b-button variant="es1" v-b-toggle.collapseHelpW>Display Help Windows</b-button>
+                <b-collapse id="collapseHelpW">
+                    <div class="nested_list">
+                        <h2>Usage Windows:</h2>
+					</div>
+				</b-collapse>
+			</div>
         </div>
         </b-row>
         <b-row align="between">
