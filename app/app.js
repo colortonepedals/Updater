@@ -248,6 +248,8 @@ var app = new Vue({
 					</div>
 				</b-collapse>
 			</div>
+
+			
 			<div>
                 <b-button variant="es" v-b-toggle.collapseHelp>Display Help VibroVerb</b-button>
                 <b-collapse id="collapseHelp">
@@ -333,13 +335,15 @@ var app = new Vue({
                     </div>
                 </b-collapse>
             </div>
+
+			
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelpW>Display Help Windows</b-button>
+                <b-button variant="es" v-b-toggle.collapseHelpW>Display Help Windows</b-button>
                 <b-collapse id="collapseHelpW">
                     <div class="nested_list">
-                        <h2>Usage Windows:</h2>
+                        <h2>Usage with Windows:</h2>
 						<p> --- </p>
-                        <p> For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
+                        <p> If the Hardware is not recognised by Windows you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
 						<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
 						<ul>
 							<li><p>	Instal Zadig and Open it. </p></li>
