@@ -27,18 +27,18 @@ text-align: left;
 }
 
 .btn-es{
-    background-color: #b3b3b3;
+    background-color: #bababa;
     color: white;
 }
 
 .btn-es1{
-    background-color: #99b8c4;
-    color: white;
+    background-color: #808080;
+    color: darker_white;
 }
 
 .btn-es2{
-    background-color: #c4af99;
-    color: white;
+    background-color: #404040;
+    color: Darkest_white;
 }
 
 .btn-ct{
