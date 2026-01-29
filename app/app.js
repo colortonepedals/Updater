@@ -184,13 +184,14 @@ var app = new Vue({
             <div id="usbInfo" hidden="true" style="white-space: pre"></div>
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 			<div>
-                <b-button variant="es" v-b-toggle.collapseHelp1>UpDate To Bootloader for V12 Software</b-button>
+                <b-button variant="es1" v-b-toggle.collapseHelp1>UpDate To Bootloader v6.3 for V12 Software</b-button>
                 <b-collapse id="collapseHelp1">
                     <div class="nested_list">
-                        <h2>Update Bootloader to v6.3 for Access to the new Colortone V12 Firmwares:</h2>
+                        <h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
 						<ol>
                  		<li>
-			    			<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
+			    			<p>This library update allows the VibroVerb, ZeroSum and future releases to run on the same platform and share the same upgrade process</p>
+							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
 			    		<ul>
 							<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
 	 						<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
