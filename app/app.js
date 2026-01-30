@@ -251,8 +251,8 @@ var app = new Vue({
 			    					</ul>
 			  	  			</li>
 						
-			   				<li><p>---</p></li>
-							<p> </p>
+			   				<li><p>You can now proceed to update the new V12 and beyond firmware update on your pedal.</p></li>
+							
            				</ol>
 					</div>
                 	</b-collapse>
