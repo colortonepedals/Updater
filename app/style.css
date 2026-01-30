@@ -29,7 +29,7 @@ text-align: left;
 .btn-es{
     background-color: #bababa;
     color: less than white;
-    width: 400px;
+    width: 50%;
 }
 
 .btn-es1{
@@ -41,6 +41,7 @@ text-align: left;
 .btn-es2{
     background-color: #b3b3b3;
     color: less_than_white2;
+    width: 50%;
 }
 
 .btn-ct{
