@@ -293,7 +293,7 @@ var app = new Vue({
        						<li>
                     			<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                         			<ul>
-				    					<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+				    					<li><p> <img src="img/ZSBoot.png" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
                                 		<li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                         			</ul>
                 			</li>
