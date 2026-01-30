@@ -184,8 +184,8 @@ var app = new Vue({
             <div id="usbInfo" hidden="true" style="white-space: pre"></div>
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp1>UpDate To Bootloader v6.3 for V12 Software</b-button>
-                <b-collapse id="collapseHelp1">
+                <b-button variant="es1" v-b-toggle.collapseHelp0>UpDate To Bootloader v6.3 for V12 Software</b-button>
+                <b-collapse id="collapseHelp0">
                     <div class="nested_list">
                         <h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
 						<ol>
