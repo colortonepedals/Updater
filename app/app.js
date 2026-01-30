@@ -214,7 +214,7 @@ var app = new Vue({
 								</ul>
 			    			</li>
 							<li>
-			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
+			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Bootloader mode.</p>
 								<ul>
 									<li><p>ENTER FLASH MODE</p>
      									<ul>
