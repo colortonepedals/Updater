@@ -189,7 +189,6 @@ var app = new Vue({
                     <div class="nested_list">
                         <ul>
 							<p>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</p>
-							<li>
 			    			<p>This library update allows the VibroVerb, ZeroSum and future releases to run on the same platform and share the same upgrade process</p>
 							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
 						</ul>
