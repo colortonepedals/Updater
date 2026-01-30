@@ -37,16 +37,19 @@ text-align: left;
     color: darker_white;
     width: 50%;
 }
-.btn-es4{
+.btn-es2{
+    background-color: #bababa;
+    color: less than white;
+    width: 50%;
+}
+.btn-es3{
     background-color: #808080;
     color: darker_white;
     width: 50%;
 }
-
-
-.btn-es2{
-    background-color: #b3b3b3;
-    color: less_than_white2;
+.btn-es4{
+    background-color: #bababa;
+    color: less than white;
     width: 50%;
 }
 
