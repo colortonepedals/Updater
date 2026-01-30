@@ -333,7 +333,7 @@ var app = new Vue({
 				</b-collapse>
 			</div>
 			<div>
-                <b-button variant="es" v-b-toggle.collapseHelp1>Display Help - ZeroSum - Pre V1.12</b-button>
+                <b-button variant="es4" v-b-toggle.collapseHelp1>Display Help - ZeroSum - Pre V1.12</b-button>
                 <b-collapse id="collapseHelp1">
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
