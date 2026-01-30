@@ -262,7 +262,7 @@ var app = new Vue({
 				</b-collapse>
 			</div>
 			<div>
-                <b-button variant="es" v-b-toggle.collapseHelp1>Display Help ZeroSum</b-button>
+                <b-button variant="es" v-b-toggle.collapseHelp1>Display Help - ZeroSum</b-button>
                 <b-collapse id="collapseHelp1">
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
@@ -329,7 +329,7 @@ var app = new Vue({
 
 			
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp>Display Help VibroVerb</b-button>
+                <b-button variant="es1" v-b-toggle.collapseHelp>Display Help - VibroVerb</b-button>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
                         <h2>Usage VibroVerb:</h2>
@@ -407,7 +407,7 @@ var app = new Vue({
 
 			
 			<div>
-                <b-button variant="es2" v-b-toggle.collapseHelpW>Display Help Windows</b-button>
+                <b-button variant="es2" v-b-toggle.collapseHelpW>Display Help - Windows</b-button>
                 <b-collapse id="collapseHelpW">
                     <div class="nested_list">
                         <h2>Usage with Windows:</h2>
