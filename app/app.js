@@ -185,7 +185,7 @@ var app = new Vue({
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 			<p>Help Files</p>
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp0>UpDate To Bootloader v6.3 for V1.12 Firmware</b-button>
+                <b-button variant="es" v-b-toggle.collapseHelp0>UpDate To Bootloader v6.3 for V1.12 Firmware</b-button>
                 <b-collapse id="collapseHelp0">
                     <div class="nested_list">
                         <ul>
@@ -260,7 +260,7 @@ var app = new Vue({
 				</b-collapse>
 			</div>
 			<div>
-                <b-button variant="es" v-b-toggle.collapseHelp3>Display Help - ZeroSum - Post V1.12</b-button>
+                <b-button variant="es1" v-b-toggle.collapseHelp3>Display Help - ZeroSum - Post V1.12</b-button>
                 <b-collapse id="collapseHelp3">
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
@@ -329,7 +329,7 @@ var app = new Vue({
 				</b-collapse>
 			</div>
 			<div>
-                <b-button variant="es4" v-b-toggle.collapseHelp1>Display Help - ZeroSum - Pre V1.12</b-button>
+                <b-button variant="es2" v-b-toggle.collapseHelp1>Display Help - ZeroSum - Pre V1.12</b-button>
                 <b-collapse id="collapseHelp1">
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
@@ -398,7 +398,7 @@ var app = new Vue({
 
 			
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp>Display Help - VibroVerb</b-button>
+                <b-button variant="es3" v-b-toggle.collapseHelp>Display Help - VibroVerb</b-button>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
                         <h2>Usage VibroVerb:</h2>
@@ -477,7 +477,7 @@ var app = new Vue({
 
 			
 			<div>
-                <b-button variant="es2" v-b-toggle.collapseHelpW>Display Help - Windows</b-button>
+                <b-button variant="es4" v-b-toggle.collapseHelpW>Display Help - Windows</b-button>
                 <b-collapse id="collapseHelpW">
                     <div class="nested_list">
                         <h2>Usage with Windows:</h2>
