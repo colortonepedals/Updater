@@ -199,6 +199,7 @@ var app = new Vue({
 			    			<p>The new library update allows the VibroVerb, ZeroSum and future releases to run on the same platform and share the same upgrade process</p>
 							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
 						</ul>
+					<p>Bootloader Update Process</p>
 						<ol>
                  			<li>
 			    				<ul>
@@ -212,7 +213,7 @@ var app = new Vue({
 							<li>
 			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
 								<ul>
-									<li><p>ZeroSum NORMAL FLASH MODE</p>
+									<li><p>ENTER FLASH MODE</p>
      									<ul>
      										<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
      										<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
@@ -223,10 +224,9 @@ var app = new Vue({
 			    			</li>
 						
        						<li>
-                    			<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+                    			<p>Select BOOTLOADER and 'Bootloader V6.3 Internal' from the two drop down menus below on this page:</p>
                         			<ul>
 				    					<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                		<li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                         			</ul>
                 			</li>
 
