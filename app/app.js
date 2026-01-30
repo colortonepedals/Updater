@@ -224,7 +224,7 @@ var app = new Vue({
 			    			</li>
 						
        						<li>
-                    			<p>Select BOOTLOADER and 'Bootloader V6.3 Internal' from the two drop down menus below on this page:</p>
+                    			<p>Select 'Bootloader' and 'Bootloader V6.3 Internal' from the two drop down menus below on this page:</p>
                         			<ul>
 				    					<li><p> <img src="img/BootloaderImageWeb.png" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
                         			</ul>
@@ -246,12 +246,11 @@ var app = new Vue({
                 			<li>
 			    				<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
 									<ul>
-			    						<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
+			    						<li><p>---</p></li>
 			    					</ul>
 			  	  			</li>
 						
-              				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
-			   				<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
+			   				<li><p>---</p></li>
 							<p> </p>
            				</ol>
 					</div>
