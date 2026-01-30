@@ -184,21 +184,25 @@ var app = new Vue({
             <div id="usbInfo" hidden="true" style="white-space: pre"></div>
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp0>UpDate To Bootloader v6.3 for V12 Software</b-button>
+                <b-button variant="es1" v-b-toggle.collapseHelp0>UpDate To Bootloader v6.3 for V1.12 Firmware</b-button>
                 <b-collapse id="collapseHelp0">
                     <div class="nested_list">
-                        <h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
-						<ol>
-                 		<li>
+                        <ul>
+							<p>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</p>
+							<li>
 			    			<p>This library update allows the VibroVerb, ZeroSum and future releases to run on the same platform and share the same upgrade process</p>
 							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
-			    		<ul>
-							<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 						<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 						<li><p>This webpage needs to be run using the Chrome browser. If you are on Windows see the notes below under Display Windows Help</p></li>
-							<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     						<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 						</ul>
+						<h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
+						<ol>
+                 		<li>
+			    			<ul>
+								<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
+	 							<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
+	 							<li><p>This webpage needs to be run using the Chrome browser. If you are on Windows see the notes below under Display Windows Help</p></li>
+								<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
+     							<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+							</ul>
 			    		</li>
 						<li>
 			    			<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
