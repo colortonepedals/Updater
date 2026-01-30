@@ -229,7 +229,7 @@ var app = new Vue({
                         			</ul>
                 			</li>
 
-                			<li><p>Click the Connect button at the top of this page.</p></li>
+                			<li><p>Click the 'Connect' button at the top of this page.</p></li>
                 		
 							<li>
 			    				<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
@@ -245,7 +245,7 @@ var app = new Vue({
 			    			</li>
 			    
                 			<li>
-			    				<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
+			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
 									<ul>
 			    					
 			    					</ul>
@@ -298,7 +298,7 @@ var app = new Vue({
                         			</ul>
                 			</li>
 
-                			<li><p>Click the Connect button at the top of this page.</p></li>
+                			<li><p>Click the 'Connect' button at the top of this page.</p></li>
                 			<li>
 			    				<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
 			    					<ul>
@@ -313,7 +313,7 @@ var app = new Vue({
 			    			</li>
 			    
                 			<li>
-			    				<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
+			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
 								<ul>
 			    					<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
 			    				</ul>
@@ -365,7 +365,7 @@ var app = new Vue({
                         	</ul>
                 		</li>
 
-                		<li><p>Click the Connect button at the top of this page.</p></li>
+                		<li><p>Click the 'Connect' button at the top of this page.</p></li>
                 		<li>
 			    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
 			    			<ul>
@@ -380,7 +380,7 @@ var app = new Vue({
 			    		</li>
 			    
                 		<li>
-			    			<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
+			    			<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
 							<ul>
 			    				<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
 			    			</ul>
@@ -434,7 +434,7 @@ var app = new Vue({
     					
 			    	</li>
                             
-                	<li><p>Click the Connect button at the top of this page.</p></li>
+                	<li><p>Click the 'Connect' button at the top of this page.</p></li>
                 	<li>
 			    		<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
 			    	<ul>
@@ -450,7 +450,7 @@ var app = new Vue({
 			    			</li>
 			    
                 			<li>
-			    			<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
+			    			<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
 							<ul>
 			    				<li><p>If the Firmware has been successfully updated the pedals bypass Relays will click and the 2nd LED will start flashing again</p></li>
 			    			</ul>
