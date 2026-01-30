@@ -700,10 +700,10 @@ var app = new Vue({
       //      })
 
             // grab the bootloader firmware file
-      //      var srcurl = blink_example.source.bootloader_url
-      //  	readServerFirmwareFile(srcurl, false).then(buffer => {
-      //          bootloaderFirmwareFile = buffer
-      //      })
+            var srcurl = blink_example.source.bootloader_url
+        	readServerFirmwareFile(srcurl, false).then(buffer => {
+                bootloaderFirmwareFile = buffer
+            })
 
             //parse the query strings
             var searchParams = new URLSearchParams(getRootUrl().split("?")[1])
