@@ -226,7 +226,7 @@ var app = new Vue({
        						<li>
                     			<p>Select BOOTLOADER and 'Bootloader V6.3 Internal' from the two drop down menus below on this page:</p>
                         			<ul>
-				    					<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+				    					<li><p> <img src="img/BootloaderImageWeb.png" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
                         			</ul>
                 			</li>
 
