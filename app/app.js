@@ -547,7 +547,7 @@ var app = new Vue({
             <br> <br>
             <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
             <b-collapse id="collapseAdvanced">
-                <br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
+                <br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader Image_</b-button> </div>                        
             </b-collapse>
 
             <div class="log" id="downloadLog"></div>            
