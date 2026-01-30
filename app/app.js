@@ -194,61 +194,62 @@ var app = new Vue({
 						</ul>
 						<h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
 						<ol>
-                 		<li>
-			    			<ul>
-								<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 							<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 							<li><p>This webpage needs to be run using the Chrome browser. If you are on Windows see the notes below under Display Windows Help</p></li>
-								<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     							<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-							</ul>
-			    		</li>
-						<li>
-			    			<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
-							<ul>
-							<li><p>ZeroSum NORMAL FLASH MODE</p>
-     							<ul>
-     								<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
-     								<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
-									<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+                 			<li>
+			    				<ul>
+									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
+	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
+	 								<li><p>This webpage needs to be run using the Chrome browser. If you are on Windows see the notes below under Display Windows Help</p></li>
+									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
+     								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 								</ul>
-      						</li>
-    						</ul>
-			    		</li>
+			    			</li>
+							<li>
+			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
+								<ul>
+									<li><p>ZeroSum NORMAL FLASH MODE</p>
+     									<ul>
+     										<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
+     										<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
+											<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+										</ul>
+      								</li>
+    							</ul>
+			    			</li>
 						
-       					<li>
-                    		<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
-                        	<ul>
-				    			<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                <li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
-                        	</ul>
-                		</li>
+       						<li>
+                    			<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+                        			<ul>
+				    					<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+                                		<li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
+                        			</ul>
+                			</li>
 
-                		<li><p>Click the Connect button at the top of this page.</p></li>
-                		<li>
-			    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
-			    			<ul>
-								<div class="column">
-								<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
-      							</div>
+                			<li><p>Click the Connect button at the top of this page.</p></li>
+                		
+							<li>
+			    				<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
+			    					<ul>
+										<div class="column">
+										<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
+      									</div>
 	   								
-			    				<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
-			    			</ul>
-			    		</li>
+			    						<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
+			    					</ul>
+			    			</li>
 			    
-                		<li>
-			    			<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
-							<ul>
-			    				<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
-			    			</ul>
-			  	  		</li>
+                			<li>
+			    				<p>Click the Program button below in the Programming Section, and wait for the progress bar to finish.</p>
+									<ul>
+			    						<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
+			    					</ul>
+			  	  			</li>
 						
-              			<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
-			   			<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
-						<p> </p>
+              				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
+			   				<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
+							<p> </p>
            				</ol>
 					</div>
-                </b-collapse>
+                	</b-collapse>
 					</div>
 				</b-collapse>
 			</div>
