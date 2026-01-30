@@ -208,7 +208,6 @@ var app = new Vue({
 									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
 	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
 	 								<li><p>This webpage needs to be run using the Chrome browser</li></p>
-									<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
 									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
      								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 								</ul>
@@ -243,6 +242,8 @@ var app = new Vue({
       									</div>
 	   								
 			    						<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
+										<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+
 			    					</ul>
 			    			</li>
 			    
@@ -273,7 +274,6 @@ var app = new Vue({
 							<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
 	 						<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
 	 						<li><p>This webpage needs to be run using the Chrome browser.</p></li>
-							<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
 							<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
      						<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 						</ul>
@@ -310,6 +310,8 @@ var app = new Vue({
       							</div>
 	   								
 			    				<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
+								<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+
 			    			</ul>
 			    		</li>
 			    
@@ -341,7 +343,6 @@ var app = new Vue({
 							<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
 	 						<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
 	 						<li><p>This webpage needs to be run using the Chrome browser.</p></li>
-							<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
 							<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
      						<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 						</ul>
@@ -376,6 +377,8 @@ var app = new Vue({
       							</div>
 	   								
 			    				<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
+								<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+
 			    			</ul>
 			    		</li>
 			    
@@ -409,7 +412,6 @@ var app = new Vue({
 									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
 	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
 	 								<li><p>This webpage needs to be run using the Chrome browser.</p></li>
-									<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
 									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
      								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 								</ul>
@@ -445,6 +447,8 @@ var app = new Vue({
 								<img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;">
       							</div>
 			    				<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
+								<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+
 			    			</ul>
 			    			</li>
 			    
