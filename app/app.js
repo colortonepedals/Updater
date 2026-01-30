@@ -183,6 +183,7 @@ var app = new Vue({
             </dialog>
             <div id="usbInfo" hidden="true" style="white-space: pre"></div>
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
+			<p>Help Files</p>
 			<div>
                 <b-button variant="es1" v-b-toggle.collapseHelp0>UpDate To Bootloader v6.3 for V1.12 Firmware</b-button>
                 <b-collapse id="collapseHelp0">
