@@ -699,7 +699,7 @@ var app = new Vue({
       //          blinkFirmwareFile = buffer
       //      })
 
-            // grab the bootloader firmware file
+            // grab the bootloader firmware file   //AH 2026
             var srcurl = blink_example.source.bootloader_url
         	readServerFirmwareFile(srcurl, false).then(buffer => {
                 bootloaderFirmwareFile = buffer
