@@ -196,7 +196,7 @@ var app = new Vue({
 									<li><p>Upgrade the Bootloader</p></li>
 									<li><p>Upgrade the v12 Firmware</p></li>
 								</ul>
-			    			<p>This library update allows the VibroVerb, ZeroSum and future releases to run on the same platform and share the same upgrade process</p>
+			    			<p>The new library update allows the VibroVerb, ZeroSum and future releases to run on the same platform and share the same upgrade process</p>
 							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
 						</ul>
 						<ol>
