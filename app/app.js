@@ -540,7 +540,7 @@ var app = new Vue({
             <b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
 
             <br> <br>
-            <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
+            <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced.._.</b-button>
             <b-collapse id="collapseAdvanced">
                 <br> <div> <b-button variant="es" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
             </b-collapse>
