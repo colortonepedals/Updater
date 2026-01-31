@@ -532,8 +532,8 @@ var app = new Vue({
                     </b-row>
                 </b-container>
             </b-col>
-        </b-row>
-        <b-row>
+    </b-row>
+    <b-row>
         	<b-col align="center" class="app_column">
         		<b-container align="center">
             	<legend>Programming Section</legend>
@@ -555,12 +555,12 @@ var app = new Vue({
                 	</div>
             		<br>
             	</div>
-            <div><div id = "readme"></div> </div>
-        	</b-container>
-        </b-col>
+            	<div><div id = "readme"></div> </div>
+        		</b-container>
+        	</b-col>
     </b-row>
-         
-    
+
+	
     </b-container>
     `,
     data: data,
