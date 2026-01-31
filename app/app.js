@@ -698,8 +698,8 @@ var app = new Vue({
             })
 
             // grab the bootloader firmware file   //AH 2026
-            //var srcurl = blink_example.source.bootloader_url
-			var srcurl = "https://raw.githubusercontent.com/colortonepedals/Updater/gh-pages/data/dsy_bootloader_v5_4.bin"
+            var srcurl = blink_example.source.bootloader_url
+			//var srcurl = "https://raw.githubusercontent.com/colortonepedals/Updater/gh-pages/data/dsy_bootloader_v5_4.bin"
         	readServerFirmwareFile(srcurl, false).then(buffer => {
                 bootloaderFirmwareFile = buffer
             })
