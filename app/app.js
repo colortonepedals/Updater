@@ -34,6 +34,7 @@ function getRootUrl() {
     return url;
 }
 
+
 // Reads the specified file containing JSON example meta-data
 // function gatherExampleData()
 // {
@@ -170,9 +171,7 @@ var app = new Vue({
     <b-row align="center" class="app_column">
         <div>
             <legend>COLORTONE FIRMWARE UPDATER</legend>
-            
-            <p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
-            <p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
+            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below</p>
             <p><b-button variant="ct" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
                 Your device has multiple DFU interfaces. Select one from the list below:
@@ -182,284 +181,58 @@ var app = new Vue({
             </dialog>
             <div id="usbInfo" hidden="true" style="white-space: pre"></div>
             <div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
-			<p>Help Files</p>
-			<div>
-                <b-button variant="es" v-b-toggle.collapseHelp0>UpDate To_Bootloader v6.3 required for V1.12 Firmware</b-button>
-                <b-collapse id="collapseHelp0">
-                    <div class="nested_list">
-                        <ul>
-							<h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
-						</ul>
-						<ul>
-			    			<p>The new library update allows the VibroVerb, ZeroSum and future Colortone releases to run on the same platform and share the same upgrade process</p>
-							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
-							<p>After performing the Bootloader V6.3 update this first time you wont have to do it again for any future Firmware updates</p>
-						</ul>
-					<p>Bootloader Update Process</p>
-						<ol>
-							<li>
-			    			<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>                 			
-			    				<ul>
-									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 								<li><p>This webpage needs to be run using the Chrome browser</li></p>
-									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-								</ul>
-			    			</li>
-							<li>
-			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Bootloader mode.</p>
-								<ul>
-									<li><p>ENTER FLASH MODE</p>
-     									<ul>
-     										<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
-     										<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
-											<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-										</ul>
-      								</li>
-    							</ul>
-			    			</li>
-						
-       						<li>
-                    			<p>Select 'Bootloader' and 'Bootloader V6.3 Internal' from the two drop down menus below on this page:</p>
-                        			<ul>
-				    					<li><p> <img src="img/BootloaderImageWeb.png" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                        			</ul>
-                			</li>
-
-                			<li><p>Click the 'Connect' button at the top of this page.</p></li>
-                		
-							<li>
-			    				<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
-			    					<ul>
-										<div class="column">
-										<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
-      									</div>
-	   								
-			    						<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
-										<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-
-			    					</ul>
-			    			</li>
-			    
-                			<li>
-			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
-			  	  			</li>
-						
-			   				<li><p>You can now proceed to update the new V12 and beyond firmware update on your pedal.</p></li>
-							
-           				</ol>
-					</div>
-                	</b-collapse>
-					</div>
-				</b-collapse>
-			</div>
-			<div>
-                <b-button variant="es1" v-b-toggle.collapseHelp3>Display Help - ZeroSum - Post V1.12 - Bootloader Version</b-button>
-                <b-collapse id="collapseHelp3">
-                    <div class="nested_list">
-                        <h2>Usage ZeroSum:</h2>
-						<ol>
-                 			<li>
-			    				<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
-			    				<ul>
-									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 								<li><p>This webpage needs to be run using the Chrome browser.</p></li>
-									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-								</ul>
-			    			</li>
-							<li>
-			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
-								<ul>
-									<li><p>ZeroSum BOOTLOADER FLASH MODE</p>
-     									<li><p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode</p>
-     										<ul>
-     											<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
-												<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
-												<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-       										</ul>
-	     								</li>
-      								</li>
-    							</ul>
-			    			</li>
-						
-       						<li>
-                    			<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
-                        			<ul>
-				    					<li><p> <img src="img/ZSBoot.png" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                		<li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
-                        			</ul>
-                			</li>
-
-                			<li><p>Click the 'Connect' button at the top of this page.</p></li>
-                			<li>
-			    				<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
-			    					<ul>
-										<div class="column">
-										<img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;">
-      									</div>
-	   								
-			    						<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
-										<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-
-			    					</ul>
-			    			</li>
-			    
-                			<li>
-			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
-								<ul>
-			    					<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
-			    				</ul>
-			  	  			</li>
-						
-              				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
-			   				<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
-							<p> </p>
-           				</ol>
-					</div>
-                </b-collapse>
-					</div>
-				</b-collapse>
-			</div>
-			<div>
-                <b-button variant="es2" v-b-toggle.collapseHelp1>Display Help - ZeroSum - Pre V1.11 - Non Bootloader Version</b-button>
-                <b-collapse id="collapseHelp1">
-                    <div class="nested_list">
-                        <h2>Usage ZeroSum:</h2>
-						<ol>
-                 		<li>
-			    			<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
-			    		<ul>
-							<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 						<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 						<li><p>This webpage needs to be run using the Chrome browser.</p></li>
-							<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     						<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-						</ul>
-			    		</li>
-						<li>
-			    			<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
-							<ul>
-							<li><p>ZeroSum NORMAL FLASH MODE</p>
-     							<ul>
-     								<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
-     								<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
-									<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-								</ul>
-      						</li>
-    						</ul>
-			    		</li>
-						
-       					<li>
-                    		<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
-                        	<ul>
-				    			<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                <li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
-                        	</ul>
-                		</li>
-
-                		<li><p>Click the 'Connect' button at the top of this page.</p></li>
-                		<li>
-			    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
-			    			<ul>
-								<div class="column">
-								<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
-      							</div>
-	   								
-			    				<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
-								<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-
-			    			</ul>
-			    		</li>
-			    
-                		<li>
-			    			<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
-							<ul>
-			    				<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
-			    			</ul>
-			  	  		</li>
-						
-              			<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
-			   			<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
-						<p> </p>
-           				</ol>
-					</div>
-                </b-collapse>
-					</div>
-				</b-collapse>
-			</div>
-
-			
-			<div>
-                <b-button variant="es3" v-b-toggle.collapseHelp>Display Help - VibroVerb - Bootloader Version</b-button>
+            <div>
+                <b-button variant="es" v-b-toggle.collapseHelp>Display Help</b-button>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
-                        <h2>Usage VibroVerb:</h2>
-            				<ol>
-                 			<li>
-			    					<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
-			    				<ul>
-									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 								<li><p>This webpage needs to be run using the Chrome browser.</p></li>
-									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-								</ul>
-			    			</li>
-							<ul>
-								<li><p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode</p>
-     								<ul>
-     									<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
-										<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
-										<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-       								</ul>
-	     						</li>
-							</ul>
-       						<li>
-                     				<p>Select the VibroVerb PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
-                        			<ul>
-				    					<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                    	<li><p>NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
-                        			</ul>
-                			</li>
-       					
-    					</ul>
-    					
-			    	</li>
-                            
-                	<li><p>Click the 'Connect' button at the top of this page.</p></li>
-                	<li>
-			    		<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
+                        <h2>Usage:</h2>
+                        <ol>
+                            <li>
+			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via a Micro USB (DShape) to your Computer</p>
 			    	<ul>
-					<div class="column">
-      					</div>
-	   						<div class="column">
-								<img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;">
-      							</div>
-			    				<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
-								<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
+					<li><p>The orientation of the USB 'D' should have the flat side facing up when inserting into the USB socket</p></li>
+				</ul>
+			    </li>
+                            <li>
+			    	<p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1), and then pressing, and releasing the RESET button(2).</p>
+				<ul>
+					<li><p>If the buttons were pressed in the correct order the flashing LED will turn off</p></li>
+					<li><p> <img src="img/CTFW-sm.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+				</ul>
+			    </li>
+                            <li><p>Click the Connect button at the top of this page.</p></li>
+                            <li>
+			    	<p>In the PopUp Dialog window select, "DFU in FS Mode" from the list</p>
+			    	<ul>
+			    		<li><p>If "DFU in FS Mode" does not appear try another Cable or USB port</p></li>
+			    	</ul>
+			    </li>
+			    <li>
+                                <p>Now do either of the following:</p>
+                                <ul>
+                                    <li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
+                                    <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to load.</p></li>
+                                </ul>
+                            </li>
+                            <li>
+			    	<p>Click the Program button, and wait for the progress bar to finish.</p>
+				<ul>
+			    		<li><p>If the Firmware has been successfully updated the 2nd LED will start flashing again</p></li>
+			    	</ul>
+			    </li>
+                            <li><p>Now, if the program does not start immediatley, pressing RESET on the PCB will cause the program to start running.</p></li>
+                        </ol>
+                        <p>
+                            For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.
 
-			    			</ul>
-			    			</li>
-			    
-                			<li>
-			    			<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
-							<ul>
-			    				<li><p>If the Firmware has been successfully updated the pedals bypass Relays will click and the 2nd LED will start flashing again</p></li>
-			    			</ul>
-			  	  			</li>
-              				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
-			   				<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
-								<p> </p>
-           				 </ol>
-			
-					</div>
+                            To do this, you can download the free software, Zadig. Run Zadig and select "list all devices" in the options menu. In the Dropdown select "DFU in FS Mode". In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver". 
+                        </p>
+                    </div>
                 </b-collapse>
                 <b-collapse id="collapseHelp">
                     <div class="nested_list">
-                        <h3>Requirements</h3>
+                        <h1>Requirements</h1>
                         <p>In order to use this, you will need:</p>
                         <ul>
                             <li>
@@ -469,45 +242,14 @@ var app = new Vue({
                     </div>
                 </b-collapse>
             </div>
-
-			
-			<div>
-                <b-button variant="es4" v-b-toggle.collapseHelpW>Display Help - Windows</b-button>
-                <b-collapse id="collapseHelpW">
-                    <div class="nested_list">
-                        <h2>Usage with Windows:</h2>
-						<p> --- </p>
-                        <p> If the Hardware is not recognised by Windows you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
-						<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
-						<ul>
-							<li><p>	Instal Zadig and Open it. </p></li>
-							<li><p>After putting the Colortone PCB into update mode, select "list all devices" in the Zadig options menu. </p></li>
-							<ul>
-								<div class="column">
-								<img src="img/ZadigList.png" alt="Pineapple" style="width:400px;height:170px;"> 
-      							</div>
-							</ul>
-							<li><p>	In the Dropdown select "DFU in FS Mode" or "Daisy Bootloader". </p></li>
-							<li><p> In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver".  </p></li>
-                    		<ul>
-								<div class="column">
-								<img src="img/ZadigDFU.png" alt="Pineapple" style="width:400px;height:170px;"> 
-      							</div>
-							</ul>
-						</ul>	
-					</div>
-				</b-collapse>
-			</div>
         </div>
         </b-row>
         <b-row align="between">
             <b-col align="center" class="app_column">
                 <b-container>
-				
-		
                     <hr>
                     <b-row class="p-2">
-                        <h4> Select your COLORTONE Pedal and Latest Firmware Version from menus below.</h4>
+                        <legend> Select Pedal and Latest Firmware Version from menus below.</legend>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -523,7 +265,7 @@ var app = new Vue({
                     </b-row>
                     <hr>
                     <b-row class="p-2">
-                        <h4> If we have sent you a custom build you can load the firmware .bin file here from your computer </h4>
+                        <legend> If we have sent you a custom build you can load the firmware here from your computer </legend>
                             <b-form-file
                                 id="firmwareFile"
                                 v-model="firmwareFile"
@@ -532,6 +274,10 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
+		    <b-row class="p-2">
+                        <legend> </legend>
+                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
+                    </b-row>
                 </b-container>
             </b-col>
         </b-row>
@@ -539,12 +285,12 @@ var app = new Vue({
         <b-col align="center" class="app_column">
         <b-container align="center">
             <legend>Programming Section</legend>
-            <b-button id="download" variant='ct' :disabled="no_device || !sel_example">Program</b-button>
+            <b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
 
             <br> <br>
             <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
             <b-collapse id="collapseAdvanced">
-                <br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
+                <br> <div> <b-button variant="es" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
             </b-collapse>
 
             <div class="log" id="downloadLog"></div>            
@@ -685,18 +431,18 @@ var app = new Vue({
             var blink_example = self.examples.filter(example => example.name.toLowerCase() === "blink" && example.platform === "seed")[0]
 
             // Read new file
-       //     self.firmwareFileName = blink_example.name
-       //     var srcurl = blink_example.source.repo_url
-       //     var expath = srcurl.concat(blink_example.filepath)
-       // 	readServerFirmwareFile(expath, false).then(buffer => {
-       //         blinkFirmwareFile = buffer
-       //     })
+      //      self.firmwareFileName = blink_example.name
+      //      var srcurl = blink_example.source.repo_url
+      //      var expath = srcurl.concat(blink_example.filepath)
+      //  	readServerFirmwareFile(expath, false).then(buffer => {
+      //          blinkFirmwareFile = buffer
+      //      })
 
-            // grab the bootloader firmware file   //AH 2026
-       //     var srcurl = blink_example.source.bootloader_url
-       // 	readServerFirmwareFile(srcurl, false).then(buffer => {
-       //         bootloaderFirmwareFile = buffer
-       //     })
+            // grab the bootloader firmware file
+      //      var srcurl = blink_example.source.bootloader_url
+      //  	readServerFirmwareFile(srcurl, false).then(buffer => {
+      //          bootloaderFirmwareFile = buffer
+      //      })
 
             //parse the query strings
             var searchParams = new URLSearchParams(getRootUrl().split("?")[1])
