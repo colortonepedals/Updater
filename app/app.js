@@ -530,6 +530,10 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
+					<b-row class="p-2">
+                        <legend> </legend>
+                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
+                    </b-row>
                 </b-container>
             </b-col>
         </b-row>
