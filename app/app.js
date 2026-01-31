@@ -530,10 +530,6 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
-		    <b-row class="p-2">
-                        <legend> </legend>
-                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
-                    </b-row>
                 </b-container>
             </b-col>
         </b-row>
@@ -544,7 +540,7 @@ var app = new Vue({
             		<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
 
             		<br> <br>
-            		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced.-..</b-button>
+            		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
             		<b-collapse id="collapseAdvanced">
                 		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash_Bootloader Image</b-button> </div>                        
             		</b-collapse>
