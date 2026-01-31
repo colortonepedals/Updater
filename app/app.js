@@ -34,7 +34,6 @@ function getRootUrl() {
     return url;
 }
 
-
 // Reads the specified file containing JSON example meta-data
 // function gatherExampleData()
 // {
