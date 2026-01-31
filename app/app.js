@@ -192,7 +192,6 @@ var app = new Vue({
 							<h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
 						</ul>
 						<ul>
-			
 			    			<p>The new library update allows the VibroVerb, ZeroSum and future Colortone releases to run on the same platform and share the same upgrade process</p>
 							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
 							<p>After performing the Bootloader V6.3 update this first time you wont have to do it again for any future Firmware updates</p>
@@ -246,9 +245,6 @@ var app = new Vue({
 			    
                 			<li>
 			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
-									<ul>
-			    					
-			    					</ul>
 			  	  			</li>
 						
 			   				<li><p>You can now proceed to update the new V12 and beyond firmware update on your pedal.</p></li>
@@ -544,12 +540,12 @@ var app = new Vue({
         <b-col align="center" class="app_column">
         <b-container align="center">
             <legend>Programming Section</legend>
-            <b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
+            <b-button id="download" variant='ct' :disabled="no_device || !sel_example">Program</b-button>
 
             <br> <br>
             <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
             <b-collapse id="collapseAdvanced">
-                <br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash_Bootloader_Image_</b-button> </div>                        
+                <br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
             </b-collapse>
 
             <div class="log" id="downloadLog"></div>            
