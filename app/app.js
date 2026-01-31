@@ -537,12 +537,12 @@ var app = new Vue({
         	<b-col align="center" class="app_column">
         		<b-container align="center">
             	<legend>Programming Section</legend>
-            		<b-button id="download" variant='ct' :disabled="no_device || !sel_example">Program</b-button>
+            		<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
 
             		<br> <br>
             		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
             		<b-collapse id="collapseAdvanced">
-                		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
+                		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash_Bootloader Image</b-button> </div>                        
             		</b-collapse>
 
             	<div class="log" id="downloadLog"></div>            
@@ -559,7 +559,7 @@ var app = new Vue({
         		</b-container>
         	</b-col>
     </b-row>
-
+	</b-row>
 	
     </b-container>
     `,
