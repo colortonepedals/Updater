@@ -499,12 +499,10 @@ var app = new Vue({
 				</b-collapse>
 			</div>
         </div>
-        </b-row>
-        <b-row align="between">
+    </b-row>
+    <b-row align="between">
             <b-col align="center" class="app_column">
                 <b-container>
-				
-		
                     <hr>
                     <b-row class="p-2">
                         <h4> Select your COLORTONE Pedal and Latest Firmware Version from menus below.</h4>
@@ -520,7 +518,7 @@ var app = new Vue({
                             </template>
                             <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
                         </b-form-select>
-                    </b-row>
+                	</b-row>
                     <hr>
                     <b-row class="p-2">
                         <h4> If we have sent you a custom build you can load the firmware .bin file here from your computer </h4>
@@ -536,32 +534,32 @@ var app = new Vue({
             </b-col>
         </b-row>
         <b-row>
-        <b-col align="center" class="app_column">
-        <b-container align="center">
-            <legend>Programming Section</legend>
-            <b-button id="download" variant='ct' :disabled="no_device || !sel_example">Program</b-button>
+        	<b-col align="center" class="app_column">
+        		<b-container align="center">
+            	<legend>Programming Section</legend>
+            		<b-button id="download" variant='ct' :disabled="no_device || !sel_example">Program</b-button>
 
-            <br> <br>
-            <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
-            <b-collapse id="collapseAdvanced">
-                <br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
-            </b-collapse>
+            		<br> <br>
+            		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
+            		<b-collapse id="collapseAdvanced">
+                		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
+            		</b-collapse>
 
-            <div class="log" id="downloadLog"></div>            
-            <br><br>
-            <div v-if="sel_example||firmwareFile" >            
-                <div v-if="displaySelectedFile">
-                <!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
-                <!--<li>Description: {{sel_example.description}}</li>-->
-                <!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
-                </div>
-            <br>
-            </div>
+            	<div class="log" id="downloadLog"></div>            
+            	<br><br>
+            	<div v-if="sel_example||firmwareFile" >            
+                	<div v-if="displaySelectedFile">
+                	<!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
+                	<!--<li>Description: {{sel_example.description}}</li>-->
+                	<!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
+                	</div>
+            		<br>
+            	</div>
             <div><div id = "readme"></div> </div>
-        </b-container>
+        	</b-container>
         </b-col>
-        </b-row>
-    </b-row>        
+    </b-row>
+         
     
     </b-container>
     `,
