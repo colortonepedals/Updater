@@ -505,7 +505,7 @@ var app = new Vue({
                 <b-container>
                     <hr>
                     <b-row class="p-2">
-                        <h4> Select your COLORTONE Pedal and Latest Firmware Version from menus below.</h4>
+                        <legend> Select Pedal and Latest Firmware Version from menus below.</legend>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -518,10 +518,10 @@ var app = new Vue({
                             </template>
                             <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
                         </b-form-select>
-                	</b-row>
+                    </b-row>
                     <hr>
                     <b-row class="p-2">
-                        <h4> If we have sent you a custom build you can load the firmware .bin file here from your computer </h4>
+                        <legend> If we have sent you a custom build you can load the firmware here from your computer </legend>
                             <b-form-file
                                 id="firmwareFile"
                                 v-model="firmwareFile"
@@ -530,9 +530,13 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
+		    <b-row class="p-2">
+                        <legend> </legend>
+                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
+                    </b-row>
                 </b-container>
             </b-col>
-    	</b-row>
+        </b-row>
     	<b-row>
         	<b-col align="center" class="app_column">
         		<b-container align="center">
@@ -540,7 +544,7 @@ var app = new Vue({
             		<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
 
             		<br> <br>
-            		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
+            		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced.-..</b-button>
             		<b-collapse id="collapseAdvanced">
                 		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash_Bootloader Image</b-button> </div>                        
             		</b-collapse>
