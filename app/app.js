@@ -534,31 +534,31 @@ var app = new Vue({
             </b-col>
     	</b-row>
     	<b-row>
-        <b-col align="center" class="app_column">
-        <b-container align="center">
-            <legend>Programming Section</legend>
-            <b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
+        	<b-col align="center" class="app_column">
+        		<b-container align="center">
+            	<legend>Programming Section</legend>
+            		<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
 
-            <br> <br>
-            <b-button variant="es" v-b-toggle.collapseAdvanced>Advanced.._.</b-button>
-            <b-collapse id="collapseAdvanced">
-                <br> <div> <b-button variant="es" id="bootloader"  :disabled="no_device">Flash Bootloader Image</b-button> </div>                        
-            </b-collapse>
+            		<br> <br>
+            		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
+            		<b-collapse id="collapseAdvanced">
+                		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash_Bootloader Image</b-button> </div>                        
+            		</b-collapse>
 
-            <div class="log" id="downloadLog"></div>            
-            <br><br>
-            <div v-if="sel_example||firmwareFile" >            
-                <div v-if="displaySelectedFile">
-                <!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
-                <!--<li>Description: {{sel_example.description}}</li>-->
-                <!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
-                </div>
-            <br>
-            </div>
-            <div><div id = "readme"></div> </div>
-        </b-container>
-        </b-col>
-        </b-row>
+            	<div class="log" id="downloadLog"></div>            
+            	<br><br>
+            	<div v-if="sel_example||firmwareFile" >            
+                	<div v-if="displaySelectedFile">
+                	<!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
+                	<!--<li>Description: {{sel_example.description}}</li>-->
+                	<!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
+                	</div>
+            		<br>
+            	</div>
+            	<div><div id = "readme"></div> </div>
+        		</b-container>
+        	</b-col>
+    	</b-row>
 	</b-row>
 	
     </b-container>
