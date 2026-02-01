@@ -195,17 +195,17 @@ var app = new Vue({
 							<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
 							<p>After performing the Bootloader V6.3 update this first time you wont have to do it again for any future Firmware updates</p>
 						</ul>
-					<p>Bootloader Update Process</p>
+						<p>Bootloader Update Process</p>
 						<ol>
 							<li>
-			    			<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>                 			
-			    				<ul>
-									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 								<li><p>This webpage needs to be run using the Chrome browser</li></p>
-									<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-								</ul>
+			    				<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>                 			
+			    					<ul>
+										<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
+	 									<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
+	 									<li><p>This webpage needs to be run using the Chrome browser</li></p>
+										<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
+     									<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+									</ul>
 			    			</li>
 							<li>
 			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Bootloader mode.</p>
@@ -219,7 +219,6 @@ var app = new Vue({
       								</li>
     							</ul>
 			    			</li>
-						
        						<li>
                     			<p>Select 'Bootloader' and 'Bootloader V6.3 Internal' from the two drop down menus below on this page:</p>
                         			<ul>
@@ -230,24 +229,21 @@ var app = new Vue({
                 			<li><p>Click the 'Connect' button at the top of this page.</p></li>
                 		
 							<li>
-			    				<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
+				    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
 			    					<ul>
 										<div class="column">
-										<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
+											<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
       									</div>
-	   								
 			    						<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
 										<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-
 			    					</ul>
 			    			</li>
-			    
                 			<li>
 			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
 			  	  			</li>
-						
-			   				<li><p>You can now proceed to update the new V12 and beyond firmware update on your pedal.</p></li>
-							
+			   				<li>
+								<p>You can now proceed to update the new V12 and beyond firmware update on your pedal.</p>
+							</li>
            				</ol>
 					</div>
 				</b-collapse>
@@ -271,8 +267,10 @@ var app = new Vue({
 							<li>
 			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
 								<ul>
-									<li><p>ZeroSum BOOTLOADER FLASH MODE</p>
-     									<li><p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode</p>
+									<li>
+										<p>ZeroSum BOOTLOADER FLASH MODE</p>
+     									<li>
+											<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode</p>
      										<ul>
      											<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
 												<li><p>If the buttons were pressed in the correct order the flashing LED will begin pulsing</p></li>
@@ -282,7 +280,6 @@ var app = new Vue({
       								</li>
     							</ul>
 			    			</li>
-						
        						<li>
                     			<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                         			<ul>
@@ -290,31 +287,25 @@ var app = new Vue({
                                 		<li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                         			</ul>
                 			</li>
-
                 			<li><p>Click the 'Connect' button at the top of this page.</p></li>
                 			<li>
 			    				<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
-			    					<ul>
-										<div class="column">
+			    				<ul>
+									<div class="column">
 										<img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;">
-      									</div>
-	   								
-			    						<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
-										<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-
-			    					</ul>
+      								</div>
+			    					<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
+									<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+			    				</ul>
 			    			</li>
-			    
                 			<li>
 			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
 								<ul>
 			    					<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
 			    				</ul>
 			  	  			</li>
-						
               				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
 			   				<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
-							<p> </p>
            				</ol>
 					</div>
 				</b-collapse>
@@ -325,73 +316,6 @@ var app = new Vue({
                     <div class="nested_list">
                         <h2>Usage ZeroSum:</h2>
 						<ol>
-                 		<li>
-			    			<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
-			    		<ul>
-							<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
-	 						<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
-	 						<li><p>This webpage needs to be run using the Chrome browser.</p></li>
-							<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
-     						<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-						</ul>
-			    		</li>
-						<li>
-			    			<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
-							<ul>
-							<li><p>ZeroSum NORMAL FLASH MODE</p>
-     							<ul>
-     								<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
-     								<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
-									<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
-								</ul>
-      						</li>
-    						</ul>
-			    		</li>
-						
-       					<li>
-                    		<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
-                        	<ul>
-				    			<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                <li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
-                        	</ul>
-                		</li>
-
-                		<li><p>Click the 'Connect' button at the top of this page.</p></li>
-                		<li>
-			    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
-			    			<ul>
-								<div class="column">
-								<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
-      							</div>
-	   								
-			    				<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
-								<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-
-			    			</ul>
-			    		</li>
-			    
-                		<li>
-			    			<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
-							<ul>
-			    				<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
-			    			</ul>
-			  	  		</li>
-						
-              			<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
-			   			<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
-						<p> </p>
-           				</ol>
-					</div>
-				</b-collapse>
-			</div>
-
-			
-			<div>
-                <b-button variant="es3" v-b-toggle.collapseHelp>Display Help - VibroVerb - Bootloader Version</b-button>
-                <b-collapse id="collapseHelp">
-                    <div class="nested_list">
-                        <h2>Usage VibroVerb:</h2>
-            				<ol>
                  			<li>
 			    				<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
 			    				<ul>
@@ -402,7 +326,65 @@ var app = new Vue({
      								<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
 								</ul>
 			    			</li>
-							<ul>
+							<li>
+			    				<p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode.</p>
+								<ul>
+									<li><p>ZeroSum NORMAL FLASH MODE</p>
+     									<ul>
+     										<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by holding the BOOT button down(1). While BOOT is still pressed then also press the RESET button(2). When both buttons have been pressed you can then release both</p></li>
+     										<li><p>If the buttons were pressed in the correct order the flashing LED on the daughter board will turn off</p></li>
+											<li><p> <img src="img/CTFW-smLed.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+										</ul>
+      								</li>
+    							</ul>
+			    			</li>
+       						<li>
+                    			<p>Select the ZeroSum PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+                        		<ul>
+				    				<li><p> <img src="img/SelectZS.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+                                	<li><p> NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
+                        		</ul>
+                			</li>
+                			<li><p>Click the 'Connect' button at the top of this page.</p></li>
+                			<li>
+			    				<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
+			    				<ul>
+									<div class="column">
+									<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
+      								</div>	
+			    					<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
+									<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+			    				</ul>
+			    			</li>
+                			<li>
+			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
+								<ul>
+			    					<li><p>If the Firmware has been successfully updated you will hear the pedals bypass relays click and the 2nd LED will start flashing again</p></li>
+			    				</ul>
+			  	  			</li>
+              				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
+			   				<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
+							<p> </p>
+           				</ol>
+					</div>
+				</b-collapse>
+			</div>	
+			<div>
+                <b-button variant="es3" v-b-toggle.collapseHelp>Display Help - VibroVerb - Bootloader Version</b-button>
+                <b-collapse id="collapseHelp">
+                    <div class="nested_list">
+                        <h2>Usage VibroVerb:</h2>
+            				<ol>
+                 				<li>
+			    					<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
+			    					<ul>
+										<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
+	 									<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
+	 									<li><p>This webpage needs to be run using the Chrome browser.</p></li>
+										<li><p>The orientation of the Micro USB connector should have the flat side facing up when inserting into the USB socket</p></li>
+     									<li><p> <img src="img/MicroUSB.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
+									</ul>
+			    				</li>
 								<li><p>Press the Buttons in sequence on the Daughter Board PCB to put it into Ready to Recieve Firmware mode</p>
      								<ul>
      									<li><p>On the daughter-board PCB enable the Computer to Pedal handshake by pressing and releasing the RESET button(2) once, and then pressing and releasing the BOOT button(1) once</p></li>
@@ -410,45 +392,32 @@ var app = new Vue({
 										<li><p> <img src="img/CTFW-smLedP.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
        								</ul>
 	     						</li>
-							</ul>
-       						<li>
-                     			<p>Select the VibroVerb PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+								<li>
+                     				<p>Select the VibroVerb PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                         			<ul>
 				    					<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
-                                    	<li><p>NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
+                                   		<li><p>NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                         			</ul>
-                			</li>
-       					
-    					</ul>
-    					
-			    	</li>
-                            
-                	<li><p>Click the 'Connect' button at the top of this page.</p></li>
-                	<li>
-			    		<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
-			    	<ul>
-					<div class="column">
-      					</div>
-	   						<div class="column">
-								<img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;">
-      							</div>
-			    				<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
-								<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-
-			    			</ul>
-			    			</li>
-			    
-                			<li>
-			    			<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
-							<ul>
-			    				<li><p>If the Firmware has been successfully updated the pedals bypass Relays will click and the 2nd LED will start flashing again</p></li>
-			    			</ul>
-			  	  			</li>
-              				<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
-			   				<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
+                				</li>
+                				<li><p>Click the 'Connect' button at the top of this page.</p></li>
+                				<li>
+			    					<p>In the PopUp Dialog window select "Daisy Bootloader" from the list and press the CONNECT button.</p>
+	   								<div class="column">
+										<img src="img/Boot.jpg" alt="Pineapple" style="width:170px;height:170px;">
+      								</div>
+			    					<li><p>If "Daisy Bootloader" does not appear in the list try another Cable or USB port</p></li>
+									<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>	
+								</li>	
+                				<li>
+			    					<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
+									<ul>
+			    						<li><p>If the Firmware has been successfully updated the pedals bypass Relays will click and the 2nd LED will start flashing again</p></li>
+			    					</ul>
+			  	  				</li>
+              					<li><p>If the Pedal does not start immediatley, pressing RESET on the PCB will cause the old firmware to start running.</p></li>
+			   					<li><p>If repeated attemps does not appear to work and more help is required contact COLORTONE.</p></li>
 								<p> </p>
-           				 </ol>
-			
+           				 	</ol>
 					</div>
                 </b-collapse>
                 <b-collapse id="collapseHelp">
@@ -463,8 +432,6 @@ var app = new Vue({
                     </div>
                 </b-collapse>
             </div>
-
-			
 			<div>
                 <b-button variant="es4" v-b-toggle.collapseHelpW>Display Help - Windows</b-button>
                 <b-collapse id="collapseHelpW">
