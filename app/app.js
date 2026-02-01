@@ -499,7 +499,7 @@ var app = new Vue({
                 <b-container>
                     <hr>
                     <b-row class="p-2">
-                        <legend> Select Pedal and Latest Firmware_Version from menus below.</legend>
+                        <legend> Select Pedal and Latest Firmware Version from menus below.</legend>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -508,7 +508,7 @@ var app = new Vue({
                         </b-form-select>
                         <b-form-select v-model="sel_example" id="firmwareSelector" required @change="programChanged">
                             <template v-slot:first>
-                                <b-form-select-option :value="null" disabled>-- Firmware_Version --</b-form-select-option>
+                                <b-form-select-option :value="null" disabled>-- Firmware Version --</b-form-select-option>
                             </template>
                             <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
                         </b-form-select>
@@ -524,8 +524,9 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
-					<b-row class="p-2">
-                        <legend>   </legend>
+		    <b-row class="p-2">
+                        <legend> </legend>
+                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
                     </b-row>
                 </b-container>
             </b-col>
