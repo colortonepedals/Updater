@@ -499,7 +499,7 @@ var app = new Vue({
                 <b-container>
                     <hr>
                     <b-row class="p-2">
-                        <legend> Select Pedal and Latest Firmware Version from menus below.</legend>
+                        <legend> Select Pedal and Latest Firmware_Version from menus below.</legend>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -525,7 +525,7 @@ var app = new Vue({
                             ></b-form-file>
                     </b-row>
 					<b-row class="p-2">
-                        <legend> update </legend>
+                        <legend>   </legend>
                     </b-row>
                 </b-container>
             </b-col>
