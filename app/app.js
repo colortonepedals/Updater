@@ -530,7 +530,9 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
-					
+					<b-row class="p-2">
+                        <legend> update </legend>
+                    </b-row>
                 </b-container>
             </b-col>
         </b-row>
