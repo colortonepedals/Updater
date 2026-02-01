@@ -169,7 +169,7 @@ var app = new Vue({
     	</div>
     	<b-row align="center" class="app_column">
         	<div>
-            	<legend>COLORTONE FIRMWARE UPDATER</legend>
+            	<legend>COLORTONE FIRMWARE_UPDATER</legend>
             	<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
             	<p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
             	<p><b-button variant="ct" id="connect"> Connect</b-button></p>
@@ -506,20 +506,21 @@ var app = new Vue({
             		<b-collapse id="collapseAdvanced">
                 		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader-Image</b-button> </div>                        
             		</b-collapse>
-            	<div class="log" id="downloadLog"></div>            
-            	<br><br>
-            	<div v-if="sel_example||firmwareFile" >            
-                	<div v-if="displaySelectedFile">
-                	<!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
-                	<!--<li>Description: {{sel_example.description}}</li>-->
-                	<!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
-                	</div>
-            		<br>
-            	</div>
-            	<div><div id = "readme"></div> </div>
+            		<div class="log" id="downloadLog"></div>            
+            			<br><br>
+            			<div v-if="sel_example||firmwareFile" >            
+                			<div v-if="displaySelectedFile">
+                				<!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
+                				<!--<li>Description: {{sel_example.description}}</li>-->
+                				<!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
+                			</div>
+            			<br>
+            		</div>
+            		<div><div id = "readme"></div> </div>
         		</b-container>
         	</b-col>
-    	</b-row>	
+    	</b-row>
+	</b-rom>
 </b-container>
     `,
     data: data,
