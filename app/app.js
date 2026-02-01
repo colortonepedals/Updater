@@ -170,7 +170,6 @@ var app = new Vue({
     <b-row align="center" class="app_column">
         <div>
             <legend>COLORTONE FIRMWARE UPDATER</legend>
-            
             <p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
             <p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
             <p><b-button variant="ct" id="connect"> Connect</b-button></p>
@@ -230,13 +229,13 @@ var app = new Vue({
                 		
 							<li>
 				    			<p>In the PopUp Dialog window select "DFU in FS Mode" from the list and press the CONNECT button.</p>
-			    					<ul>
-										<div class="column">
-											<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
-      									</div>
-			    						<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
-										<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
-			    					</ul>
+			    				<ul>
+									<div class="column">
+										<img src="img/Dfu.jpg" alt="Pineapple" style="width:170px;height:170px;"> 
+      								</div>
+			    					<li><p>If "DFU in FS Mode" does not appear in the list try another Cable or USB port</p></li>
+									<li><p>If you are on Windows and having trouble connecting see the notes below under the 'Display Windows Help' button</p></li>
+			    				</ul>
 			    			</li>
                 			<li>
 			    				<p>Click the 'Program' button below in the Programming Section, and wait for the progress bar to finish.</p>
@@ -460,11 +459,11 @@ var app = new Vue({
 				</b-collapse>
 			</div>
         </div>
-    	</b-row>
-    	<b-row align="between">
-            <b-col align="center" class="app_column">
-                <b-container>
-                    <hr>
+    </b-row>
+    <b-row align="between">
+        <b-col align="center" class="app_column">
+            <b-container>
+                 <hr>
                     <b-row class="p-2">
                         <legend> Select Pedal and Latest Firmware Version from menus below.</legend>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
@@ -480,7 +479,7 @@ var app = new Vue({
                             <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
                         </b-form-select>
                     </b-row>
-                    <hr>
+                	<hr>
                     <b-row class="p-2">
                         <legend> If we have sent you a custom build you can load the firmware here from your computer </legend>
                             <b-form-file
@@ -491,14 +490,14 @@ var app = new Vue({
                                 drop-placeholder="Drop file here..."
                             ></b-form-file>
                     </b-row>
-		    <b-row class="p-2">
+		    		<b-row class="p-2">
                         <legend> </legend>
                         <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
-                    </b-row>
-                </b-container>
-            </b-col>
-        </b-row>
-    	<b-row>
+            		</b-row>
+            </b-container>
+        </b-col>
+    </b-row>
+    <b-row>
         	<b-col align="center" class="app_column">
         		<b-container align="center">
             	<legend>Programming Section</legend>
@@ -509,7 +508,6 @@ var app = new Vue({
             		<b-collapse id="collapseAdvanced">
                 		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader-Image</b-button> </div>                        
             		</b-collapse>
-
             	<div class="log" id="downloadLog"></div>            
             	<br><br>
             	<div v-if="sel_example||firmwareFile" >            
@@ -523,10 +521,10 @@ var app = new Vue({
             	<div><div id = "readme"></div> </div>
         		</b-container>
         	</b-col>
-    	</b-row>
-	</b-row>
+    </b-row>
+</b-row>
 	
-    </b-container>
+</b-container>
     `,
     data: data,
     computed: {
