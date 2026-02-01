@@ -250,8 +250,6 @@ var app = new Vue({
 							
            				</ol>
 					</div>
-                	</b-collapse>
-					</div>
 				</b-collapse>
 			</div>
 			<div>
@@ -319,8 +317,6 @@ var app = new Vue({
 							<p> </p>
            				</ol>
 					</div>
-                </b-collapse>
-					</div>
 				</b-collapse>
 			</div>
 			<div>
@@ -386,8 +382,6 @@ var app = new Vue({
 						<p> </p>
            				</ol>
 					</div>
-                </b-collapse>
-					</div>
 				</b-collapse>
 			</div>
 
@@ -399,7 +393,7 @@ var app = new Vue({
                         <h2>Usage VibroVerb:</h2>
             				<ol>
                  			<li>
-			    					<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
+			    				<p>Unscrew and remove the back cover of your COLORTONE Pedal and connect the smaller PCB Board via a Micro USB (DShape) to your Computer</p>
 			    				<ul>
 									<li><p>A data capable microUSB cable is required. Charging only cables will not work. Look for Data Transfer and Charging capabilities in the cable description </p></li>				
 	 								<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub (for USB power reasons)</p></li>
@@ -418,7 +412,7 @@ var app = new Vue({
 	     						</li>
 							</ul>
        						<li>
-                     				<p>Select the VibroVerb PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
+                     			<p>Select the VibroVerb PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                         			<ul>
 				    					<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
                                     	<li><p>NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
@@ -514,7 +508,7 @@ var app = new Vue({
                         </b-form-select>
                         <b-form-select v-model="sel_example" id="firmwareSelector" required @change="programChanged">
                             <template v-slot:first>
-                                <b-form-select-option :value="null" disabled>-- Firmware Version --</b-form-select-option>
+                                <b-form-select-option :value="null" disabled>-- Firmware_Version --</b-form-select-option>
                             </template>
                             <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
                         </b-form-select>
