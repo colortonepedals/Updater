@@ -72,6 +72,8 @@ text-align: left;
 .wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    row-gap: 1em;
 }
 .button-container-grid {
   display: flex; /* Arranges children side by side */
