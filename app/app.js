@@ -173,7 +173,8 @@ var app = new Vue({
         	<div>
             	<legend>COLORTONE_FIRMWARE_UPDATER</legend>
 				<div class="button-container-grid">
-  					<button>Button 1</button>
+  					<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
+					<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
   					<button>Button 2</button>
 				</div>
 				
