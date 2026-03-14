@@ -250,7 +250,6 @@ var app = new Vue({
            							</ol>
 								</div>
 							</b-collapse>
-						</div>
 					</div>
 					<div>
                 		<b-button variant="es1" v-b-toggle.collapseHelp3>Display Help - ZeroSum - Post V1.12 - Bootloader Version</b-button>
@@ -463,6 +462,7 @@ var app = new Vue({
 							</div>
 							</b-collapse>
 						</div>
+					</div>
         	</div>
     	</b-row>
     	<b-row align="between">
