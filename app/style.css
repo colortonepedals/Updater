@@ -74,7 +74,7 @@ text-align: left;
     grid-template-columns: 1fr 2fr;  /* makes two weighted columns */
     column-gap: 10px;
     row-gap: 1em;
-    word-break: break-word;
+    overflow-wrap: break-word;
 }
 .button-container-grid {
   display: flex; /* Arranges children side by side */
