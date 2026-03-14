@@ -172,6 +172,11 @@ var app = new Vue({
     	<b-row align="center" class="app_column">
         	<div>
             	<legend>COLORTONE_FIRMWARE_UPDATER</legend>
+				<div class="button-container-grid">
+  					<button>Button 1</button>
+  					<button>Button 2</button>
+				</div>
+				
             	<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
             	<p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
             	<p><b-button variant="ct" id="connect"> Connect</b-button></p>
