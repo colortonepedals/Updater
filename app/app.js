@@ -171,37 +171,35 @@ var app = new Vue({
 		
     	<b-row align="center" class="app_column">
         	<div>
-            	<legend>COLORTONE_FIRMWARE_UPDATER</legend>
 				<div class="wrapper">
-  					<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
-					<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below  ikdhsgfksjdhfkjhsdf ksjdhf sdkfjhsdfkg jsdfkjhsdf ksjdhf Slkds gldsfhk asdlfgasf laslhaslh lahf aslkfha lkas lkdhgg zlkghz zdlkgz gsdl</p>
-  					<button>Button 2</button>
-				</div>
-				
-            	<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
-            	<p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
-            	<p><b-button variant="ct" id="connect"> Connect</b-button></p>
-            	<dialog id="interfaceDialog">
-            	    Your device has multiple DFU interfaces. Select one from the list below:
-                	<b-form id="interfaceForm" method="dialog">
-                    	<b-button id="selectInterface" type="submit">Select interface</b-button>
-                	</b-form>
-            	</dialog>
-            	<div id="usbInfo" hidden="true" style="white-space: pre"></div>
-            	<div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
-				<p>Help Files</p>
-				<div>
-                	<b-button variant="es" v-b-toggle.collapseHelp0>UpDate To_Bootloader v6.3 required for V1.12 Firmware</b-button>
-                	<b-collapse id="collapseHelp0">
-                    	<div class="nested_list">
-                        	<ul>
-								<h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
-							</ul>
-							<ul>
-			    				<p>The new library update allows the VibroVerb, ZeroSum and future Colortone releases to run on the same platform and share the same upgrade process</p>
-								<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
-								<p>After performing the Bootloader V6.3 update this first time you wont have to do it again for any future Firmware updates</p>
-							</ul>
+					<div>
+            			<legend>COLORTONE_FIRMWARE_UPDATER</legend>
+            			<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
+            			<p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
+            			<p><b-button variant="ct" id="connect"> Connect</b-button></p>
+            			<dialog id="interfaceDialog">
+            	    		Your device has multiple DFU interfaces. Select one from the list below:
+                			<b-form id="interfaceForm" method="dialog">
+                    			<b-button id="selectInterface" type="submit">Select interface</b-button>
+                			</b-form>
+            			</dialog>
+            			<div id="usbInfo" hidden="true" style="white-space: pre"></div>
+            			<div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
+					</div>
+					<div>
+						<p>Help Files</p>
+						<div>
+                			<b-button variant="es" v-b-toggle.collapseHelp0>UpDate To_Bootloader v6.3 required for V1.12 Firmware</b-button>
+                			<b-collapse id="collapseHelp0">
+                    			<div class="nested_list">
+                        			<ul>
+										<h2>An Update to the Bootloader v6.3 is required for access to the new Colortone V12 Firmwares:</h2>
+									</ul>
+									<ul>
+			    						<p>The new library update allows the VibroVerb, ZeroSum and future Colortone releases to run on the same platform and share the same upgrade process</p>
+										<p>The library update also addresses some bug behaviors with MIDI and preset handling</p>
+										<p>After performing the Bootloader V6.3 update this first time you wont have to do it again for any future Firmware updates</p>
+									</ul>
 							<p>Bootloader Update Process</p>
 							<ol>
 								<li>
@@ -250,8 +248,9 @@ var app = new Vue({
 									<p>You can now proceed to update the new V12 and beyond firmware update on your pedal.</p>
 								</li>
            					</ol>
+							</div>
+							</b-collapse>
 						</div>
-					</b-collapse>
 				</div>
 				<div>
                 	<b-button variant="es1" v-b-toggle.collapseHelp3>Display Help - ZeroSum - Post V1.12 - Bootloader Version</b-button>
