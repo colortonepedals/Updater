@@ -69,6 +69,10 @@ text-align: left;
     font-family: 'Typo_Round_Regular';
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 .button-container-grid {
   display: flex; /* Arranges children side by side */
   gap: 10px;     /* Adds 10px space between the buttons */
