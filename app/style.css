@@ -71,7 +71,7 @@ text-align: left;
 
 .wrapper {      
     display: grid;
-    grid-template-columns: 2fr 1fr;  /* makes two weighted columns */
+    grid-template-columns: 1fr 2fr;  /* makes two weighted columns */
     column-gap: 10px;
     row-gap: 1em;
 }
