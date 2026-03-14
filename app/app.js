@@ -172,9 +172,9 @@ var app = new Vue({
     	<b-row align="center" class="app_column">
         	<div>
             	<legend>COLORTONE_FIRMWARE_UPDATER</legend>
-				<div class="button-container-grid">
+				<div class="wrapper">
   					<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
-					<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
+					<p> Connect to the Board - If this is your first time here, follow the steps under the 'Display Help' buttons below  ikdhsgfksjdhfkjhsdf ksjdhf sdkfjhsdfkg jsdfkjhsdf ksjdhf Slkds gldsfhk asdlfgasf laslhaslh lahf aslkfha lkas lkdhgg zlkghz zdlkgz gsdl</p>
   					<button>Button 2</button>
 				</div>
 				
