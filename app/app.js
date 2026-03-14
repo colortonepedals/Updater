@@ -167,10 +167,7 @@ var app = new Vue({
             	</div>
         	</b-form>
     	</div>
-		<b-column align="left" class="app_column">
-			<p> Connect to the Brain and afkhsflkghsdlkfjhg lkfhg alskjgh asjhg lagh asg alkg kasgh asgh ashg aksgh akhg agh kgh ahg ashg ahg ahg ashg ashg ahg ahg </p>
 
-		</b-column>
 		
     	<b-row align="center" class="app_column">
         	<div>
