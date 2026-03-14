@@ -167,11 +167,7 @@ var app = new Vue({
             	</div>
         	</b-form>
     	</div>
-		//
-		// <b-column align="left" class="app_row">
-		//	<p> Connect to the Brain </p>
-		//
-		// </b-column>
+		
     	<b-row align="center" class="app_column">
         	<div>
             	<legend>COLORTONE_FIRMWARE_UPDATER_</legend>
