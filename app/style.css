@@ -81,6 +81,18 @@ text-align: left;
     margin: 5px;
     font-family: 'Typo_Round_Regular';
 }
+.app_row {
+    align-items: Left;
+    justify-content: center;
+    color: #fff;
+    background-color: #626262;
+    padding: 10px;
+    border: solid;
+    border-radius: 15px;
+    border-color: rgb(0, 200, 255);
+    margin: 5px;
+    font-family: 'Typo_Round_Regular';
+}
 
 .nested_list {
     justify-content: left;
