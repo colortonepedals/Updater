@@ -69,9 +69,9 @@ text-align: left;
     font-family: 'Typo_Round_Regular';
 }
 
-.wrapper {
+.wrapper {      
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;  /* makes two weighted columns */
     column-gap: 10px;
     row-gap: 1em;
 }
