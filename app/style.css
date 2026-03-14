@@ -69,7 +69,7 @@ text-align: left;
     font-family: 'Typo_Round_Regular';
 }
 
-.app_row {
+.app_column {
     align-items: Left;
     justify-content: center;
     color: #fff;
