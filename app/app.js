@@ -463,7 +463,7 @@ var app = new Vue({
 							</div>
 							</b-collapse>
 						</div>
-        		</div>
+        	</div>
     	</b-row>
     	<b-row align="between">
         	<b-col align="center" class="app_column">
