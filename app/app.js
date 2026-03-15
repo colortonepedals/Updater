@@ -398,7 +398,7 @@ var app = new Vue({
 										<li>
                      						<p>Select the VibroVerb PEDAL and latest FIRMWARE VERSION update required from the two drop down menus below on this page:</p>
                         					<ul>
-				    							<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:800px;height:198px;"> </p></li>
+				    							<li><p> <img src="img/select2.jpg" alt="Pineapple" style="width:400px;height:99px;"> </p></li>
                                    				<li><p>NOTE: If you have been sent a custom build, click the Choose File button and navigate to and select the supplied .bin file you would like to load.</p></li>
                         					</ul>
                 						</li>
