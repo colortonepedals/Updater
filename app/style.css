@@ -75,7 +75,7 @@ text-align: left;
     column-gap: 10px;
     row-gap: 1em;
     overflow-wrap: break-word;
-    height: 50vh;
+    /*height: 50vh;           - need wrapper */
 }
 .button-container-grid {
   display: flex; /* Arranges children side by side */
