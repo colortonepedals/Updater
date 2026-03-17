@@ -175,7 +175,7 @@ var app = new Vue({
 					<div>
 						<div>
             				<legend>COLORTONE FIRMWARE UPDATER</legend>
-            				<p> Connect to the PCB Board via USB - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
+            				<p> Connect to the PCB Board via USB - If this is your first time here, follow the steps under the 'Display Help' buttons --> </p>
             				<p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
             				<p><b-button variant="ct" id="connect"> Connect</b-button></p>
             				<dialog id="interfaceDialog">
