@@ -173,18 +173,40 @@ var app = new Vue({
         	<div>
 				<div class="wrapper">
 					<div>
-            			<legend>COLORTONE FIRMWARE UPDATER</legend>
-            			<p> Connect to the PCB Board via USB - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
-            			<p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
-            			<p><b-button variant="ct" id="connect"> Connect</b-button></p>
-            			<dialog id="interfaceDialog">
-            	    		Your device has multiple DFU interfaces. Select one from the list below:
-                			<b-form id="interfaceForm" method="dialog">
-                    			<b-button id="selectInterface" type="submit">Select interface</b-button>
-                			</b-form>
-            			</dialog>
-            			<div id="usbInfo" hidden="true" style="white-space: pre"></div>
-            			<div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
+						<div>
+            				<legend>COLORTONE FIRMWARE UPDATER</legend>
+            				<p> Connect to the PCB Board via USB - If this is your first time here, follow the steps under the 'Display Help' buttons below </p>
+            				<p> <img src="img/colortone_Logo_2023_2.png" alt="Pineapple" style="width:170px;height:130px;"> </p>
+            				<p><b-button variant="ct" id="connect"> Connect</b-button></p>
+            				<dialog id="interfaceDialog">
+            	    			Your device has multiple DFU interfaces. Select one from the list below:
+                				<b-form id="interfaceForm" method="dialog">
+                    				<b-button id="selectInterface" type="submit">Select interface</b-button>
+                				</b-form>
+            				</dialog>
+            				<div id="usbInfo" hidden="true" style="white-space: pre"></div>
+            				<div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
+						</div>
+						<div>
+							<legend>Programming Section</legend>
+            				<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
+            				<br> <br>
+            				<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
+            				<b-collapse id="collapseAdvanced">
+                				<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader-Image</b-button> </div>                        
+            				</b-collapse>
+            				<div class="log" id="downloadLog"></div>            
+            					<br><br>
+            				<div v-if="sel_example||firmwareFile" >            
+                				<div v-if="displaySelectedFile">
+                					<!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
+                					<!--<li>Description: {{sel_example.description}}</li>-->
+                					<!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
+                				</div>
+            					<br>
+            				</div>
+            				<div><div id = "readme"></div> </div>
+						</div>
 					</div>
 					<div>
 						<p>Help Files</p>
@@ -439,7 +461,7 @@ var app = new Vue({
                 			<b-button variant="es4" v-b-toggle.collapseHelpW>Display Help - Windows</b-button>
                 			<b-collapse id="collapseHelpW">
                     		<div class="nested_list">
-                        		<h2>Usage with Windows:</h2>
+                        		<h2>Usage and problem solving with Windows:</h2>
 								<p> --- </p>
                         		<p> If the Hardware is not recognised by Windows you may have to update the driver to WinUSB to let Chrome connect to the board.</p>
 								<p> To do this, you can download the free software, Zadig from here https://zadig.akeo.ie/ . </p>
