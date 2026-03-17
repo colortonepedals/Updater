@@ -511,67 +511,6 @@ var app = new Vue({
 					</div>
         	</div>
     	</b-row>
-    	<b-row align="between">
-        	<b-col align="center" class="app_column">
-            <b-container>
-                 <hr>
-                    <b-row class="p-2">
-                        <legend> Select Pedal and Latest Firmware Version from menus below.</legend>
-                        <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
-                            <template v-slot:first>
-                                <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
-                            </template>
-                            <option v-for="platform in platforms" :value="platform">{{platform}}</option>
-                        </b-form-select>
-                        <b-form-select v-model="sel_example" id="firmwareSelector" required @change="programChanged">
-                            <template v-slot:first>
-                                <b-form-select-option :value="null" disabled>-- Firmware Version --</b-form-select-option>
-                            </template>
-                            <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
-                        </b-form-select>
-                    </b-row>
-                	<hr>
-                    <b-row class="p-2">
-                        <legend> If we have sent you a custom build you can load the firmware here from your computer </legend>
-                            <b-form-file
-                                id="firmwareFile"
-                                v-model="firmwareFile"
-                                :state="Boolean(firmwareFile)"
-                                placeholder="Choose or drop a file..."
-                                drop-placeholder="Drop file here..."
-                            ></b-form-file>
-                    </b-row>
-		    		<b-row class="p-2">
-                        <legend> </legend>
-                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
-            		</b-row>
-            </b-container>
-        	</b-col>
-    	</b-row>
-    	<b-row>
-        	<b-col align="center" class="app_column">
-        		<b-container align="center">
-            		<legend>Programming Section</legend>
-            		<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
-            		<br> <br>
-            		<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
-            		<b-collapse id="collapseAdvanced">
-                		<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader-Image</b-button> </div>                        
-            		</b-collapse>
-            		<div class="log" id="downloadLog"></div>            
-            			<br><br>
-            			<div v-if="sel_example||firmwareFile" >            
-                			<div v-if="displaySelectedFile">
-                				<!--<h3 class="info">Name: {{sel_example.name}}</h3>-->
-                				<!--<li>Description: {{sel_example.description}}</li>-->
-                				<!--<h3 class="info">File Location: {{sel_example.filepath}} </h3>-->
-                			</div>
-            				<br>
-            			</div>
-            		<div><div id = "readme"></div> </div>
-        		</b-container>
-        	</b-col>
-    	</b-row>
 </b-container>
     `,
     data: data,
