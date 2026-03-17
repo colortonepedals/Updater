@@ -223,6 +223,9 @@ var app = new Vue({
             				</b-row>
 						</div>
 						<div>
+							<hr width="100%" size="2"> 
+						</div>
+						<div>
 							<legend>Programming Section</legend>
             				<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program </b-button>
             				<br> <br>
