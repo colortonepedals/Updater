@@ -188,7 +188,7 @@ var app = new Vue({
             				<div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 						</div>
 						<div>
-							<hr width="100%" size="2"> /* creates a line */
+							<hr width="100%" size="2"> 
 						</div>
 						<div>
 							<b-row class="p-2">
