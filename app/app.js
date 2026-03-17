@@ -217,7 +217,7 @@ var app = new Vue({
 						</div>
 						<div>
 							<legend>Programming Section</legend>
-            				<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program</b-button>
+            				<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program </b-button>
             				<br> <br>
 							<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
             				<b-collapse id="collapseAdvanced">
