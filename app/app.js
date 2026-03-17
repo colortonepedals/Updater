@@ -192,7 +192,7 @@ var app = new Vue({
 						</div>
 						<div>
 							<b-row class="p-2">
-                        		<legend> Select Pedal and Latest Firmware Version from menus below.</legend>
+                        		<p> Select Pedal and Latest Firmware Version from menus below.</p>
                         		<b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             		<template v-slot:first>
                                 		<b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -208,7 +208,7 @@ var app = new Vue({
                     		</b-row>
                 			<hr>
                     		<b-row class="p-2">
-                        		<legend> If we have sent you a custom build you can load the firmware here from your computer </legend>
+                        		<p> If we have sent you a custom build you can load the firmware here from your computer </p>
                             		<b-form-file
                                 		id="firmwareFile"
                                 		v-model="firmwareFile"
@@ -226,7 +226,7 @@ var app = new Vue({
 							<hr width="100%" size="2"> 
 						</div>
 						<div>
-							<legend>Programming Section</legend>
+							<p>Programming Section</p>
             				<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program </b-button>
             				<br> <br>
 							<b-button variant="es" v-b-toggle.collapseAdvanced hidden="true">Advanced...</b-button>
