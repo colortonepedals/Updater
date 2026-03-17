@@ -235,7 +235,7 @@ var app = new Vue({
 					<div>
 						<p>Help Files</p>
 						<div>
-                			<b-button variant="es" v-b-toggle.collapseHelp0>UpDate To_Bootloader v6.3 required for V1.12 Firmware</b-button>
+                			<b-button variant="es" v-b-toggle.collapseHelp0>UpDate To_Bootloader v6.3 required for V1.12 Firmware - ZeroSum and VibroVerb</b-button>
                 			<b-collapse id="collapseHelp0">
                     			<div class="nested_list">
                         			<ul>
