@@ -216,14 +216,14 @@ var app = new Vue({
                     		</b-row>
 							<b-row class="p-2">
                         		<legend> </legend>
-                        		<div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
+                        		<div><b-button variant="es" id="blink"  :disabled="no_device" hidden="true">For Testing Only</b-button></div>
             				</b-row>
 						</div>
 						<div>
 							<legend>Programming Section</legend>
             				<b-button id="download" variant='ct' :disabled="no_device || !sel_example"> Program </b-button>
             				<br> <br>
-							<b-button variant="es" v-b-toggle.collapseAdvanced>Advanced...</b-button>
+							<b-button variant="es" v-b-toggle.collapseAdvanced hidden="true">Advanced...</b-button>
             				<b-collapse id="collapseAdvanced">
                 				<br> <div> <b-button variant="esf" id="bootloader"  :disabled="no_device">Flash Bootloader-Image</b-button> </div>                        
             				</b-collapse>
