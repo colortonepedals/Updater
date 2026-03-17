@@ -208,7 +208,7 @@ var app = new Vue({
                     		</b-row>
                 			<hr>
                     		<b-row class="p-2">
-                        		<p> If we have sent you a custom build you can load the firmware here from your hard drive </p>
+                        		<p>If we sent you a custom build you can load it here</p>
                             		<b-form-file
                                 		id="firmwareFile"
                                 		v-model="firmwareFile"
