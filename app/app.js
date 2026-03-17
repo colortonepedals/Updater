@@ -188,6 +188,9 @@ var app = new Vue({
             				<div id="dfuInfo"  hidden="true" style="white-space: pre"></div>
 						</div>
 						<div>
+							<hr width="100%" size="2"> /* creates a line */
+						</div>
+						<div>
 							<b-row class="p-2">
                         		<legend> Select Pedal and Latest Firmware Version from menus below.</legend>
                         		<b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
