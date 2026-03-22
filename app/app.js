@@ -496,7 +496,7 @@ var app = new Vue({
                 			</b-collapse>
             			</div>
 						<div>
-                			<b-button variant="es4" v-b-toggle.collapseHelpW>Display Help - Windows</b-button>
+                			<b-button variant="es4" v-b-toggle.collapseHelpW>Display Help - Windows & PC</b-button>
                 			<b-collapse id="collapseHelpW">
                     		<div class="nested_list">
                         		<h2>Usage and problem solving with Windows:</h2>
